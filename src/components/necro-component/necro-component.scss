@@ -1,0 +1,189 @@
+:host {
+  display: block;
+  background-color: black;
+  color: white;
+  font-family: system-ui;
+
+
+  .title {
+    font-size: 25px;
+    padding: 0 0 15px;
+    text-transform: capitalize;
+  }
+
+  .affix-type {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .affixs {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+
+    .affix {
+      gap: 5px;
+      padding: 0 5px;
+      flex-direction: column;
+
+      border-left: 4px solid transparent;
+
+      .main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+        padding: 0 5px;
+      }
+
+      &:hover {
+        border-left: 4px solid white;
+
+        .more-info {
+          opacity: 1;
+        }
+      }
+
+      .more-info {
+        opacity: 0;
+      }
+
+      .info {
+        gap: 5px;
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+      }
+
+      .mini-info {
+        display: flex;
+      }
+
+      .modified {
+        color: green;
+        display: flex;
+      }
+
+      .tags {
+        gap: 5px;
+        display: flex;
+
+
+        .tag {
+          border: 1px solid #ccc;
+          padding: 3px;
+        }
+      }
+
+      .tiers {
+        display: none;
+
+
+        &.display {
+          display: flex;
+          gap: 5px;
+          padding-left: 15px;
+          flex-direction: column;
+        }
+
+        .tier {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 5px;
+          padding: 0 5px;
+
+          .infos {
+            display: flex;
+            gap: 5px;
+          }
+
+          &.removed {
+            text-decoration: line-through;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .tag {
+    cursor: pointer;
+
+
+    &-Elemental {
+      background: linear-gradient(0.25turn, red, blue, yellow);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &-Fire {
+      color: red;
+    }
+
+    &-Cold {
+      color: blue;
+    }
+
+    &-Lightning {
+      color: yellow;
+    }
+
+    &-Attack {
+      color: rgba(255, 123, 0, 0.514);
+    }
+
+    &-Mana {
+      color: rgb(0, 255, 221);
+    }
+
+    &-Physical {
+      color: rgb(110, 110, 110);
+    }
+
+    &-Chaos {
+      color: rgb(161, 0, 148);
+    }
+
+  }
+
+
+
+  .cim {
+    margin-bottom: 15px;
+
+    .allCorpse {
+      margin-top: 15px;
+      display: flex;
+      gap: 5px;
+      flex-direction: column;
+
+      .corpse {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+
+        .tag {
+          border: 1px solid white;
+          padding: 5px
+        }
+
+        .remove {
+          background-color: RED;
+          padding: 0 5px;
+          cursor: pointer;
+        }
+      }
+
+    }
+
+
+    .selector {
+      display: flex;
+    }
+
+  }
+
+}

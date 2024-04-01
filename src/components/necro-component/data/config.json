@@ -1,0 +1,3295 @@
+[
+  {
+    "type": "wand",
+    "datas": [
+      [
+        {
+          "id": "678",
+          "type": "prefixes",
+          "name": "#% increased Cold Damage",
+          "ntiers": "8",
+          "weigth": "1887",
+          "ilvl": "84",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Cold"
+          ],
+          "tiers": [
+            {
+              "parentId": "678",
+              "type": "prefixes",
+              "name": "(10-19)% increased Cold Damage",
+              "tier": "8",
+              "weigth": "500",
+              "ilvl": "2"
+            },
+            {
+              "parentId": "678",
+              "type": "prefixes",
+              "name": "(20-29)% increased Cold Damage",
+              "tier": "7",
+              "weigth": "500",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "678",
+              "type": "prefixes",
+              "name": "(30-39)% increased Cold Damage",
+              "tier": "6",
+              "weigth": "500",
+              "ilvl": "23"
+            },
+            {
+              "parentId": "678",
+              "type": "prefixes",
+              "name": "(40-54)% increased Cold Damage",
+              "tier": "5",
+              "weigth": "200",
+              "ilvl": "35"
+            },
+            {
+              "parentId": "678",
+              "type": "prefixes",
+              "name": "(55-69)% increased Cold Damage",
+              "tier": "4",
+              "weigth": "100",
+              "ilvl": "46"
+            },
+            {
+              "parentId": "678",
+              "type": "prefixes",
+              "name": "(70-84)% increased Cold Damage",
+              "tier": "3",
+              "weigth": "50",
+              "ilvl": "58"
+            },
+            {
+              "parentId": "678",
+              "type": "prefixes",
+              "name": "(85-99)% increased Cold Damage",
+              "tier": "2",
+              "weigth": "25",
+              "ilvl": "64"
+            },
+            {
+              "parentId": "678",
+              "type": "prefixes",
+              "name": "(100-109)% increased Cold Damage",
+              "tier": "1",
+              "weigth": "12",
+              "ilvl": "84"
+            }
+          ]
+        },
+        {
+          "id": "2588",
+          "type": "prefixes",
+          "name": "#% increased Elemental Damage with Attack Skills",
+          "ntiers": "6",
+          "weigth": "1800",
+          "ilvl": "86",
+          "tags": [
+            "Attack",
+            "Damage",
+            "Elemental"
+          ],
+          "tiers": [
+            {
+              "parentId": "2588",
+              "type": "prefixes",
+              "name": "(11-20)% increased Elemental Damage with Attack Skills",
+              "tier": "6",
+              "weigth": "300",
+              "ilvl": "4"
+            },
+            {
+              "parentId": "2588",
+              "type": "prefixes",
+              "name": "(21-30)% increased Elemental Damage with Attack Skills",
+              "tier": "5",
+              "weigth": "300",
+              "ilvl": "15"
+            },
+            {
+              "parentId": "2588",
+              "type": "prefixes",
+              "name": "(31-36)% increased Elemental Damage with Attack Skills",
+              "tier": "4",
+              "weigth": "300",
+              "ilvl": "30"
+            },
+            {
+              "parentId": "2588",
+              "type": "prefixes",
+              "name": "(37-42)% increased Elemental Damage with Attack Skills",
+              "tier": "3",
+              "weigth": "300",
+              "ilvl": "60"
+            },
+            {
+              "parentId": "2588",
+              "type": "prefixes",
+              "name": "(43-50)% increased Elemental Damage with Attack Skills",
+              "tier": "2",
+              "weigth": "300",
+              "ilvl": "81"
+            },
+            {
+              "parentId": "2588",
+              "type": "prefixes",
+              "name": "(51-59)% increased Elemental Damage with Attack Skills",
+              "tier": "1",
+              "weigth": "300",
+              "ilvl": "86"
+            }
+          ]
+        },
+        {
+          "id": "1622",
+          "type": "prefixes",
+          "name": "#% increased Fire Damage",
+          "ntiers": "8",
+          "weigth": "1887",
+          "ilvl": "84",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Fire"
+          ],
+          "tiers": [
+            {
+              "parentId": "1622",
+              "type": "prefixes",
+              "name": "(10-19)% increased Fire Damage",
+              "tier": "8",
+              "weigth": "500",
+              "ilvl": "2"
+            },
+            {
+              "parentId": "1622",
+              "type": "prefixes",
+              "name": "(20-29)% increased Fire Damage",
+              "tier": "7",
+              "weigth": "500",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "1622",
+              "type": "prefixes",
+              "name": "(30-39)% increased Fire Damage",
+              "tier": "6",
+              "weigth": "500",
+              "ilvl": "23"
+            },
+            {
+              "parentId": "1622",
+              "type": "prefixes",
+              "name": "(40-54)% increased Fire Damage",
+              "tier": "5",
+              "weigth": "200",
+              "ilvl": "35"
+            },
+            {
+              "parentId": "1622",
+              "type": "prefixes",
+              "name": "(55-69)% increased Fire Damage",
+              "tier": "4",
+              "weigth": "100",
+              "ilvl": "46"
+            },
+            {
+              "parentId": "1622",
+              "type": "prefixes",
+              "name": "(70-84)% increased Fire Damage",
+              "tier": "3",
+              "weigth": "50",
+              "ilvl": "58"
+            },
+            {
+              "parentId": "1622",
+              "type": "prefixes",
+              "name": "(85-99)% increased Fire Damage",
+              "tier": "2",
+              "weigth": "25",
+              "ilvl": "64"
+            },
+            {
+              "parentId": "1622",
+              "type": "prefixes",
+              "name": "(100-109)% increased Fire Damage",
+              "tier": "1",
+              "weigth": "12",
+              "ilvl": "84"
+            }
+          ]
+        },
+        {
+          "id": "1961",
+          "type": "prefixes",
+          "name": "#% increased Lightning Damage",
+          "ntiers": "8",
+          "weigth": "1887",
+          "ilvl": "84",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Lightning"
+          ],
+          "tiers": [
+            {
+              "parentId": "1961",
+              "type": "prefixes",
+              "name": "(10-19)% increased Lightning Damage",
+              "tier": "8",
+              "weigth": "500",
+              "ilvl": "2"
+            },
+            {
+              "parentId": "1961",
+              "type": "prefixes",
+              "name": "(20-29)% increased Lightning Damage",
+              "tier": "7",
+              "weigth": "500",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "1961",
+              "type": "prefixes",
+              "name": "(30-39)% increased Lightning Damage",
+              "tier": "6",
+              "weigth": "500",
+              "ilvl": "23"
+            },
+            {
+              "parentId": "1961",
+              "type": "prefixes",
+              "name": "(40-54)% increased Lightning Damage",
+              "tier": "5",
+              "weigth": "200",
+              "ilvl": "35"
+            },
+            {
+              "parentId": "1961",
+              "type": "prefixes",
+              "name": "(55-69)% increased Lightning Damage",
+              "tier": "4",
+              "weigth": "100",
+              "ilvl": "46"
+            },
+            {
+              "parentId": "1961",
+              "type": "prefixes",
+              "name": "(70-84)% increased Lightning Damage",
+              "tier": "3",
+              "weigth": "50",
+              "ilvl": "58"
+            },
+            {
+              "parentId": "1961",
+              "type": "prefixes",
+              "name": "(85-99)% increased Lightning Damage",
+              "tier": "2",
+              "weigth": "25",
+              "ilvl": "64"
+            },
+            {
+              "parentId": "1961",
+              "type": "prefixes",
+              "name": "(100-109)% increased Lightning Damage",
+              "tier": "1",
+              "weigth": "12",
+              "ilvl": "84"
+            }
+          ]
+        },
+        {
+          "id": "2015",
+          "type": "prefixes",
+          "name": "#% increased Physical Damage",
+          "ntiers": "8",
+          "weigth": "3775",
+          "ilvl": "83",
+          "tags": [
+            "Damage",
+            "Physical",
+            "Attack"
+          ],
+          "tiers": [
+            {
+              "parentId": "2015",
+              "type": "prefixes",
+              "name": "(40-49)% increased Physical Damage",
+              "tier": "8",
+              "weigth": "1000",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "2015",
+              "type": "prefixes",
+              "name": "(50-64)% increased Physical Damage",
+              "tier": "7",
+              "weigth": "1000",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "2015",
+              "type": "prefixes",
+              "name": "(65-84)% increased Physical Damage",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "23"
+            },
+            {
+              "parentId": "2015",
+              "type": "prefixes",
+              "name": "(85-109)% increased Physical Damage",
+              "tier": "5",
+              "weigth": "400",
+              "ilvl": "35"
+            },
+            {
+              "parentId": "2015",
+              "type": "prefixes",
+              "name": "(110-134)% increased Physical Damage",
+              "tier": "4",
+              "weigth": "200",
+              "ilvl": "46"
+            },
+            {
+              "parentId": "2015",
+              "type": "prefixes",
+              "name": "(135-154)% increased Physical Damage",
+              "tier": "3",
+              "weigth": "100",
+              "ilvl": "60"
+            },
+            {
+              "parentId": "2015",
+              "type": "prefixes",
+              "name": "(155-169)% increased Physical Damage",
+              "tier": "2",
+              "weigth": "50",
+              "ilvl": "73"
+            },
+            {
+              "parentId": "2015",
+              "type": "prefixes",
+              "name": "(170-179)% increased Physical Damage",
+              "tier": "1",
+              "weigth": "25",
+              "ilvl": "83"
+            }
+          ]
+        },
+        {
+          "id": "2017",
+          "type": "prefixes",
+          "name": "#% increased Physical Damage, +# to Accuracy Rating",
+          "ntiers": "8",
+          "weigth": "3775",
+          "ilvl": "83",
+          "tags": [
+            "Damage",
+            "Physical",
+            "Attack"
+          ],
+          "tiers": [
+            {
+              "parentId": "2017",
+              "type": "prefixes",
+              "name": "(15-19)% increased Physical Damage, +(16-20) to Accuracy Rating",
+              "tier": "8",
+              "weigth": "1000",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "2017",
+              "type": "prefixes",
+              "name": "(20-24)% increased Physical Damage, +(21-46) to Accuracy Rating",
+              "tier": "7",
+              "weigth": "1000",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "2017",
+              "type": "prefixes",
+              "name": "(25-34)% increased Physical Damage, +(47-72) to Accuracy Rating",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "23"
+            },
+            {
+              "parentId": "2017",
+              "type": "prefixes",
+              "name": "(35-44)% increased Physical Damage, +(73-97) to Accuracy Rating",
+              "tier": "5",
+              "weigth": "400",
+              "ilvl": "35"
+            },
+            {
+              "parentId": "2017",
+              "type": "prefixes",
+              "name": "(45-54)% increased Physical Damage, +(98-123) to Accuracy Rating",
+              "tier": "4",
+              "weigth": "200",
+              "ilvl": "46"
+            },
+            {
+              "parentId": "2017",
+              "type": "prefixes",
+              "name": "(55-64)% increased Physical Damage, +(124-149) to Accuracy Rating",
+              "tier": "3",
+              "weigth": "100",
+              "ilvl": "60"
+            },
+            {
+              "parentId": "2017",
+              "type": "prefixes",
+              "name": "(65-74)% increased Physical Damage, +(150-174) to Accuracy Rating",
+              "tier": "2",
+              "weigth": "50",
+              "ilvl": "73"
+            },
+            {
+              "parentId": "2017",
+              "type": "prefixes",
+              "name": "(75-79)% increased Physical Damage, +(175-200) to Accuracy Rating",
+              "tier": "1",
+              "weigth": "25",
+              "ilvl": "83"
+            }
+          ]
+        },
+        {
+          "id": "2312",
+          "type": "prefixes",
+          "name": "#% increased Spell Damage",
+          "ntiers": "8",
+          "weigth": "5670",
+          "ilvl": "84",
+          "tags": [
+            "Damage",
+            "Caster"
+          ],
+          "tiers": [
+            {
+              "parentId": "2312",
+              "type": "prefixes",
+              "name": "(10-19)% increased Spell Damage",
+              "tier": "8",
+              "weigth": "1500",
+              "ilvl": "2"
+            },
+            {
+              "parentId": "2312",
+              "type": "prefixes",
+              "name": "(20-29)% increased Spell Damage",
+              "tier": "7",
+              "weigth": "1500",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "2312",
+              "type": "prefixes",
+              "name": "(30-39)% increased Spell Damage",
+              "tier": "6",
+              "weigth": "1500",
+              "ilvl": "23"
+            },
+            {
+              "parentId": "2312",
+              "type": "prefixes",
+              "name": "(40-54)% increased Spell Damage",
+              "tier": "5",
+              "weigth": "600",
+              "ilvl": "35"
+            },
+            {
+              "parentId": "2312",
+              "type": "prefixes",
+              "name": "(55-69)% increased Spell Damage",
+              "tier": "4",
+              "weigth": "300",
+              "ilvl": "46"
+            },
+            {
+              "parentId": "2312",
+              "type": "prefixes",
+              "name": "(70-84)% increased Spell Damage",
+              "tier": "3",
+              "weigth": "150",
+              "ilvl": "58"
+            },
+            {
+              "parentId": "2312",
+              "type": "prefixes",
+              "name": "(85-99)% increased Spell Damage",
+              "tier": "2",
+              "weigth": "80",
+              "ilvl": "64"
+            },
+            {
+              "parentId": "2312",
+              "type": "prefixes",
+              "name": "(100-109)% increased Spell Damage",
+              "tier": "1",
+              "weigth": "40",
+              "ilvl": "84"
+            }
+          ]
+        },
+        {
+          "id": "2307",
+          "type": "prefixes",
+          "name": "#% increased Spell Damage, +# to maximum Mana",
+          "ntiers": "7",
+          "weigth": "4500",
+          "ilvl": "80",
+          "tags": [
+            "Mana",
+            "Damage",
+            "Caster"
+          ],
+          "tiers": [
+            {
+              "parentId": "2307",
+              "type": "prefixes",
+              "name": "(5-9)% increased Spell Damage, +(17-20) to maximum Mana",
+              "tier": "7",
+              "weigth": "1000",
+              "ilvl": "2"
+            },
+            {
+              "parentId": "2307",
+              "type": "prefixes",
+              "name": "(10-14)% increased Spell Damage, +(21-24) to maximum Mana",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "2307",
+              "type": "prefixes",
+              "name": "(15-19)% increased Spell Damage, +(25-28) to maximum Mana",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "23"
+            },
+            {
+              "parentId": "2307",
+              "type": "prefixes",
+              "name": "(20-24)% increased Spell Damage, +(29-33) to maximum Mana",
+              "tier": "4",
+              "weigth": "800",
+              "ilvl": "35"
+            },
+            {
+              "parentId": "2307",
+              "type": "prefixes",
+              "name": "(25-29)% increased Spell Damage, +(34-37) to maximum Mana",
+              "tier": "3",
+              "weigth": "400",
+              "ilvl": "46"
+            },
+            {
+              "parentId": "2307",
+              "type": "prefixes",
+              "name": "(30-34)% increased Spell Damage, +(38-41) to maximum Mana",
+              "tier": "2",
+              "weigth": "200",
+              "ilvl": "58"
+            },
+            {
+              "parentId": "2307",
+              "type": "prefixes",
+              "name": "(35-39)% increased Spell Damage, +(42-45) to maximum Mana",
+              "tier": "1",
+              "weigth": "100",
+              "ilvl": "80"
+            }
+          ]
+        },
+        {
+          "id": "1941",
+          "type": "prefixes",
+          "name": "(0.2-0.4)% of Physical Attack Damage Leeched as Life",
+          "ntiers": "1",
+          "weigth": "1000",
+          "ilvl": "50",
+          "tags": [
+            "Attack",
+            "Life",
+            "Physical"
+          ],
+          "tiers": [
+            {
+              "parentId": "1941",
+              "type": "prefixes",
+              "name": "(0.2-0.4)% of Physical Attack Damage Leeched as Life",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "50"
+            }
+          ]
+        },
+        {
+          "id": "2051",
+          "type": "prefixes",
+          "name": "(0.2-0.4)% of Physical Attack Damage Leeched as Mana",
+          "ntiers": "1",
+          "weigth": "1000",
+          "ilvl": "50",
+          "tags": [
+            "Attack",
+            "Physical",
+            "Mana"
+          ],
+          "tiers": [
+            {
+              "parentId": "2051",
+              "type": "prefixes",
+              "name": "(0.2-0.4)% of Physical Attack Damage Leeched as Mana",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "50"
+            }
+          ]
+        },
+        {
+          "id": "1697",
+          "type": "prefixes",
+          "name": "+1 to Level of all Chaos Spell Skill Gems",
+          "ntiers": "1",
+          "weigth": "200",
+          "ilvl": "2",
+          "tags": [
+            "Chaos",
+            "Caster",
+            "Gem"
+          ],
+          "tiers": [
+            {
+              "parentId": "1697",
+              "type": "prefixes",
+              "name": "+1 to Level of all Chaos Spell Skill Gems",
+              "tier": "1",
+              "weigth": "200",
+              "ilvl": "2"
+            }
+          ]
+        },
+        {
+          "id": "1699",
+          "type": "prefixes",
+          "name": "+1 to Level of all Cold Spell Skill Gems",
+          "ntiers": "1",
+          "weigth": "250",
+          "ilvl": "2",
+          "tags": [
+            "Elemental",
+            "Cold",
+            "Caster",
+            "Gem"
+          ],
+          "tiers": [
+            {
+              "parentId": "1699",
+              "type": "prefixes",
+              "name": "+1 to Level of all Cold Spell Skill Gems",
+              "tier": "1",
+              "weigth": "250",
+              "ilvl": "2"
+            }
+          ]
+        },
+        {
+          "id": "1706",
+          "type": "prefixes",
+          "name": "+1 to Level of all Fire Spell Skill Gems",
+          "ntiers": "1",
+          "weigth": "250",
+          "ilvl": "2",
+          "tags": [
+            "Elemental",
+            "Fire",
+            "Caster",
+            "Gem"
+          ],
+          "tiers": [
+            {
+              "parentId": "1706",
+              "type": "prefixes",
+              "name": "+1 to Level of all Fire Spell Skill Gems",
+              "tier": "1",
+              "weigth": "250",
+              "ilvl": "2"
+            }
+          ]
+        },
+        {
+          "id": "1709",
+          "type": "prefixes",
+          "name": "+1 to Level of all Lightning Spell Skill Gems",
+          "ntiers": "1",
+          "weigth": "250",
+          "ilvl": "2",
+          "tags": [
+            "Elemental",
+            "Lightning",
+            "Caster",
+            "Gem"
+          ],
+          "tiers": [
+            {
+              "parentId": "1709",
+              "type": "prefixes",
+              "name": "+1 to Level of all Lightning Spell Skill Gems",
+              "tier": "1",
+              "weigth": "250",
+              "ilvl": "2"
+            }
+          ]
+        },
+        {
+          "id": "1711",
+          "type": "prefixes",
+          "name": "+1 to Level of all Physical Spell Skill Gems",
+          "ntiers": "1",
+          "weigth": "200",
+          "ilvl": "2",
+          "tags": [
+            "Physical",
+            "Caster",
+            "Gem"
+          ],
+          "tiers": [
+            {
+              "parentId": "1711",
+              "type": "prefixes",
+              "name": "+1 to Level of all Physical Spell Skill Gems",
+              "tier": "1",
+              "weigth": "200",
+              "ilvl": "2"
+            }
+          ]
+        },
+        {
+          "id": "1713",
+          "type": "prefixes",
+          "name": "+1 to Level of all Spell Skill Gems",
+          "ntiers": "1",
+          "weigth": "50",
+          "ilvl": "55",
+          "tags": [
+            "Caster",
+            "Gem"
+          ],
+          "tiers": [
+            {
+              "parentId": "1713",
+              "type": "prefixes",
+              "name": "+1 to Level of all Spell Skill Gems",
+              "tier": "1",
+              "weigth": "50",
+              "ilvl": "55"
+            }
+          ]
+        },
+        {
+          "id": "1777",
+          "type": "prefixes",
+          "name": "+# to maximum Mana",
+          "ntiers": "12",
+          "weigth": "10800",
+          "ilvl": "81",
+          "tags": [
+            "Mana"
+          ],
+          "tiers": [
+            {
+              "parentId": "1777",
+              "type": "prefixes",
+              "name": "+(30-39) to maximum Mana",
+              "tier": "12",
+              "weigth": "1000",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "1777",
+              "type": "prefixes",
+              "name": "+(40-49) to maximum Mana",
+              "tier": "11",
+              "weigth": "1000",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "1777",
+              "type": "prefixes",
+              "name": "+(50-59) to maximum Mana",
+              "tier": "10",
+              "weigth": "1000",
+              "ilvl": "17"
+            },
+            {
+              "parentId": "1777",
+              "type": "prefixes",
+              "name": "+(60-69) to maximum Mana",
+              "tier": "9",
+              "weigth": "1000",
+              "ilvl": "23"
+            },
+            {
+              "parentId": "1777",
+              "type": "prefixes",
+              "name": "+(70-79) to maximum Mana",
+              "tier": "8",
+              "weigth": "1000",
+              "ilvl": "29"
+            },
+            {
+              "parentId": "1777",
+              "type": "prefixes",
+              "name": "+(80-89) to maximum Mana",
+              "tier": "7",
+              "weigth": "1000",
+              "ilvl": "35"
+            },
+            {
+              "parentId": "1777",
+              "type": "prefixes",
+              "name": "+(90-99) to maximum Mana",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "42"
+            },
+            {
+              "parentId": "1777",
+              "type": "prefixes",
+              "name": "+(100-109) to maximum Mana",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "51"
+            },
+            {
+              "parentId": "1777",
+              "type": "prefixes",
+              "name": "+(110-119) to maximum Mana",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "60"
+            },
+            {
+              "parentId": "1777",
+              "type": "prefixes",
+              "name": "+(120-129) to maximum Mana",
+              "tier": "3",
+              "weigth": "800",
+              "ilvl": "69"
+            },
+            {
+              "parentId": "1777",
+              "type": "prefixes",
+              "name": "+(130-139) to maximum Mana",
+              "tier": "2",
+              "weigth": "600",
+              "ilvl": "75"
+            },
+            {
+              "parentId": "1777",
+              "type": "prefixes",
+              "name": "+(140-159) to maximum Mana",
+              "tier": "1",
+              "weigth": "400",
+              "ilvl": "81"
+            }
+          ]
+        },
+        {
+          "id": "1968",
+          "type": "prefixes",
+          "name": "Adds (56-87) to (105-160) Chaos Damage",
+          "ntiers": "1",
+          "weigth": "250",
+          "ilvl": "83",
+          "tags": [
+            "Damage",
+            "Chaos",
+            "Attack"
+          ],
+          "tiers": [
+            {
+              "parentId": "1968",
+              "type": "prefixes",
+              "name": "Adds (56-87) to (105-160) Chaos Damage",
+              "tier": "1",
+              "weigth": "250",
+              "ilvl": "83"
+            }
+          ]
+        },
+        {
+          "id": "1970",
+          "type": "prefixes",
+          "name": "Adds # to # Cold Damage",
+          "ntiers": "10",
+          "weigth": "4120",
+          "ilvl": "82",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Cold",
+            "Attack"
+          ],
+          "tiers": [
+            {
+              "parentId": "1970",
+              "type": "prefixes",
+              "name": "Adds (1-2) to (3-4) Cold Damage",
+              "tier": "10",
+              "weigth": "500",
+              "ilvl": "2"
+            },
+            {
+              "parentId": "1970",
+              "type": "prefixes",
+              "name": "Adds (7-9) to (14-16) Cold Damage",
+              "tier": "9",
+              "weigth": "500",
+              "ilvl": "12"
+            },
+            {
+              "parentId": "1970",
+              "type": "prefixes",
+              "name": "Adds (11-15) to (23-26) Cold Damage",
+              "tier": "8",
+              "weigth": "500",
+              "ilvl": "19"
+            },
+            {
+              "parentId": "1970",
+              "type": "prefixes",
+              "name": "Adds (16-21) to (31-37) Cold Damage",
+              "tier": "7",
+              "weigth": "500",
+              "ilvl": "27"
+            },
+            {
+              "parentId": "1970",
+              "type": "prefixes",
+              "name": "Adds (22-30) to (44-51) Cold Damage",
+              "tier": "6",
+              "weigth": "500",
+              "ilvl": "34"
+            },
+            {
+              "parentId": "1970",
+              "type": "prefixes",
+              "name": "Adds (31-42) to (62-71) Cold Damage",
+              "tier": "5",
+              "weigth": "500",
+              "ilvl": "43"
+            },
+            {
+              "parentId": "1970",
+              "type": "prefixes",
+              "name": "Adds (41-57) to (83-97) Cold Damage",
+              "tier": "4",
+              "weigth": "500",
+              "ilvl": "52"
+            },
+            {
+              "parentId": "1970",
+              "type": "prefixes",
+              "name": "Adds (54-74) to (108-126) Cold Damage",
+              "tier": "3",
+              "weigth": "400",
+              "ilvl": "63"
+            },
+            {
+              "parentId": "1970",
+              "type": "prefixes",
+              "name": "Adds (68-92) to (136-157) Cold Damage",
+              "tier": "2",
+              "weigth": "175",
+              "ilvl": "75"
+            },
+            {
+              "parentId": "1970",
+              "type": "prefixes",
+              "name": "Adds (81-111) to (163-189) Cold Damage",
+              "tier": "1",
+              "weigth": "45",
+              "ilvl": "82"
+            }
+          ]
+        },
+        {
+          "id": "2283",
+          "type": "prefixes",
+          "name": "Adds # to # Cold Damage to Spells",
+          "ntiers": "9",
+          "weigth": "7200",
+          "ilvl": "74",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Cold",
+            "Caster"
+          ],
+          "tiers": [
+            {
+              "parentId": "2283",
+              "type": "prefixes",
+              "name": "Adds 1 to (2-3) Cold Damage to Spells",
+              "tier": "9",
+              "weigth": "800",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "2283",
+              "type": "prefixes",
+              "name": "Adds (5-7) to (10-12) Cold Damage to Spells",
+              "tier": "8",
+              "weigth": "800",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "2283",
+              "type": "prefixes",
+              "name": "Adds (8-10) to (16-18) Cold Damage to Spells",
+              "tier": "7",
+              "weigth": "800",
+              "ilvl": "18"
+            },
+            {
+              "parentId": "2283",
+              "type": "prefixes",
+              "name": "Adds (11-15) to (22-25) Cold Damage to Spells",
+              "tier": "6",
+              "weigth": "800",
+              "ilvl": "26"
+            },
+            {
+              "parentId": "2283",
+              "type": "prefixes",
+              "name": "Adds (16-20) to (30-36) Cold Damage to Spells",
+              "tier": "5",
+              "weigth": "800",
+              "ilvl": "33"
+            },
+            {
+              "parentId": "2283",
+              "type": "prefixes",
+              "name": "Adds (20-26) to (40-46) Cold Damage to Spells",
+              "tier": "4",
+              "weigth": "800",
+              "ilvl": "42"
+            },
+            {
+              "parentId": "2283",
+              "type": "prefixes",
+              "name": "Adds (26-35) to (51-60) Cold Damage to Spells",
+              "tier": "3",
+              "weigth": "800",
+              "ilvl": "51"
+            },
+            {
+              "parentId": "2283",
+              "type": "prefixes",
+              "name": "Adds (33-43) to (64-75) Cold Damage to Spells",
+              "tier": "2",
+              "weigth": "800",
+              "ilvl": "62"
+            },
+            {
+              "parentId": "2283",
+              "type": "prefixes",
+              "name": "Adds (41-54) to (81-93) Cold Damage to Spells",
+              "tier": "1",
+              "weigth": "800",
+              "ilvl": "74"
+            }
+          ]
+        },
+        {
+          "id": "1972",
+          "type": "prefixes",
+          "name": "Adds # to # Fire Damage",
+          "ntiers": "10",
+          "weigth": "4120",
+          "ilvl": "82",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Fire",
+            "Attack"
+          ],
+          "tiers": [
+            {
+              "parentId": "1972",
+              "type": "prefixes",
+              "name": "Adds (1-2) to (3-4) Fire Damage",
+              "tier": "10",
+              "weigth": "500",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "1972",
+              "type": "prefixes",
+              "name": "Adds (8-10) to (15-18) Fire Damage",
+              "tier": "9",
+              "weigth": "500",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "1972",
+              "type": "prefixes",
+              "name": "Adds (12-17) to (25-29) Fire Damage",
+              "tier": "8",
+              "weigth": "500",
+              "ilvl": "18"
+            },
+            {
+              "parentId": "1972",
+              "type": "prefixes",
+              "name": "Adds (17-24) to (35-41) Fire Damage",
+              "tier": "7",
+              "weigth": "500",
+              "ilvl": "26"
+            },
+            {
+              "parentId": "1972",
+              "type": "prefixes",
+              "name": "Adds (24-33) to (49-57) Fire Damage",
+              "tier": "6",
+              "weigth": "500",
+              "ilvl": "33"
+            },
+            {
+              "parentId": "1972",
+              "type": "prefixes",
+              "name": "Adds (34-46) to (68-80) Fire Damage",
+              "tier": "5",
+              "weigth": "500",
+              "ilvl": "42"
+            },
+            {
+              "parentId": "1972",
+              "type": "prefixes",
+              "name": "Adds (46-62) to (93-107) Fire Damage",
+              "tier": "4",
+              "weigth": "500",
+              "ilvl": "51"
+            },
+            {
+              "parentId": "1972",
+              "type": "prefixes",
+              "name": "Adds (59-81) to (120-140) Fire Damage",
+              "tier": "3",
+              "weigth": "400",
+              "ilvl": "62"
+            },
+            {
+              "parentId": "1972",
+              "type": "prefixes",
+              "name": "Adds (74-101) to (150-175) Fire Damage",
+              "tier": "2",
+              "weigth": "175",
+              "ilvl": "74"
+            },
+            {
+              "parentId": "1972",
+              "type": "prefixes",
+              "name": "Adds (89-121) to (180-210) Fire Damage",
+              "tier": "1",
+              "weigth": "45",
+              "ilvl": "82"
+            }
+          ]
+        },
+        {
+          "id": "2287",
+          "type": "prefixes",
+          "name": "Adds # to # Fire Damage to Spells",
+          "ntiers": "9",
+          "weigth": "7200",
+          "ilvl": "74",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Fire",
+            "Caster"
+          ],
+          "tiers": [
+            {
+              "parentId": "2287",
+              "type": "prefixes",
+              "name": "Adds (1-2) to (3-4) Fire Damage to Spells",
+              "tier": "9",
+              "weigth": "800",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "2287",
+              "type": "prefixes",
+              "name": "Adds (6-8) to (12-14) Fire Damage to Spells",
+              "tier": "8",
+              "weigth": "800",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "2287",
+              "type": "prefixes",
+              "name": "Adds (10-12) to (19-23) Fire Damage to Spells",
+              "tier": "7",
+              "weigth": "800",
+              "ilvl": "18"
+            },
+            {
+              "parentId": "2287",
+              "type": "prefixes",
+              "name": "Adds (13-18) to (27-31) Fire Damage to Spells",
+              "tier": "6",
+              "weigth": "800",
+              "ilvl": "26"
+            },
+            {
+              "parentId": "2287",
+              "type": "prefixes",
+              "name": "Adds (19-25) to (37-44) Fire Damage to Spells",
+              "tier": "5",
+              "weigth": "800",
+              "ilvl": "33"
+            },
+            {
+              "parentId": "2287",
+              "type": "prefixes",
+              "name": "Adds (24-33) to (48-57) Fire Damage to Spells",
+              "tier": "4",
+              "weigth": "800",
+              "ilvl": "42"
+            },
+            {
+              "parentId": "2287",
+              "type": "prefixes",
+              "name": "Adds (31-42) to (64-73) Fire Damage to Spells",
+              "tier": "3",
+              "weigth": "800",
+              "ilvl": "51"
+            },
+            {
+              "parentId": "2287",
+              "type": "prefixes",
+              "name": "Adds (40-52) to (79-91) Fire Damage to Spells",
+              "tier": "2",
+              "weigth": "800",
+              "ilvl": "62"
+            },
+            {
+              "parentId": "2287",
+              "type": "prefixes",
+              "name": "Adds (49-66) to (98-115) Fire Damage to Spells",
+              "tier": "1",
+              "weigth": "800",
+              "ilvl": "74"
+            }
+          ]
+        },
+        {
+          "id": "1974",
+          "type": "prefixes",
+          "name": "Adds # to # Lightning Damage",
+          "ntiers": "10",
+          "weigth": "4120",
+          "ilvl": "82",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Lightning",
+            "Attack"
+          ],
+          "tiers": [
+            {
+              "parentId": "1974",
+              "type": "prefixes",
+              "name": "Adds 1 to (5-6) Lightning Damage",
+              "tier": "10",
+              "weigth": "500",
+              "ilvl": "3"
+            },
+            {
+              "parentId": "1974",
+              "type": "prefixes",
+              "name": "Adds 2 to (25-29) Lightning Damage",
+              "tier": "9",
+              "weigth": "500",
+              "ilvl": "13"
+            },
+            {
+              "parentId": "1974",
+              "type": "prefixes",
+              "name": "Adds 2 to (41-48) Lightning Damage",
+              "tier": "8",
+              "weigth": "500",
+              "ilvl": "19"
+            },
+            {
+              "parentId": "1974",
+              "type": "prefixes",
+              "name": "Adds 3 to (57-67) Lightning Damage",
+              "tier": "7",
+              "weigth": "500",
+              "ilvl": "31"
+            },
+            {
+              "parentId": "1974",
+              "type": "prefixes",
+              "name": "Adds (4-5) to (80-94) Lightning Damage",
+              "tier": "6",
+              "weigth": "500",
+              "ilvl": "34"
+            },
+            {
+              "parentId": "1974",
+              "type": "prefixes",
+              "name": "Adds (5-8) to (112-131) Lightning Damage",
+              "tier": "5",
+              "weigth": "500",
+              "ilvl": "42"
+            },
+            {
+              "parentId": "1974",
+              "type": "prefixes",
+              "name": "Adds (8-10) to (152-176) Lightning Damage",
+              "tier": "4",
+              "weigth": "500",
+              "ilvl": "51"
+            },
+            {
+              "parentId": "1974",
+              "type": "prefixes",
+              "name": "Adds (10-14) to (197-229) Lightning Damage",
+              "tier": "3",
+              "weigth": "400",
+              "ilvl": "63"
+            },
+            {
+              "parentId": "1974",
+              "type": "prefixes",
+              "name": "Adds (13-17) to (247-286) Lightning Damage",
+              "tier": "2",
+              "weigth": "175",
+              "ilvl": "74"
+            },
+            {
+              "parentId": "1974",
+              "type": "prefixes",
+              "name": "Adds (15-21) to (296-344) Lightning Damage",
+              "tier": "1",
+              "weigth": "45",
+              "ilvl": "82"
+            }
+          ]
+        },
+        {
+          "id": "2291",
+          "type": "prefixes",
+          "name": "Adds # to # Lightning Damage to Spells",
+          "ntiers": "9",
+          "weigth": "7200",
+          "ilvl": "74",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Lightning",
+            "Caster"
+          ],
+          "tiers": [
+            {
+              "parentId": "2291",
+              "type": "prefixes",
+              "name": "Adds 1 to (4-5) Lightning Damage to Spells",
+              "tier": "9",
+              "weigth": "800",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "2291",
+              "type": "prefixes",
+              "name": "Adds (1-2) to (21-22) Lightning Damage to Spells",
+              "tier": "8",
+              "weigth": "800",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "2291",
+              "type": "prefixes",
+              "name": "Adds (1-2) to (33-35) Lightning Damage to Spells",
+              "tier": "7",
+              "weigth": "800",
+              "ilvl": "18"
+            },
+            {
+              "parentId": "2291",
+              "type": "prefixes",
+              "name": "Adds (1-4) to (46-48) Lightning Damage to Spells",
+              "tier": "6",
+              "weigth": "800",
+              "ilvl": "26"
+            },
+            {
+              "parentId": "2291",
+              "type": "prefixes",
+              "name": "Adds (2-5) to (64-68) Lightning Damage to Spells",
+              "tier": "5",
+              "weigth": "800",
+              "ilvl": "33"
+            },
+            {
+              "parentId": "2291",
+              "type": "prefixes",
+              "name": "Adds (2-7) to (84-88) Lightning Damage to Spells",
+              "tier": "4",
+              "weigth": "800",
+              "ilvl": "42"
+            },
+            {
+              "parentId": "2291",
+              "type": "prefixes",
+              "name": "Adds (2-9) to (109-115) Lightning Damage to Spells",
+              "tier": "3",
+              "weigth": "800",
+              "ilvl": "51"
+            },
+            {
+              "parentId": "2291",
+              "type": "prefixes",
+              "name": "Adds (4-11) to (136-144) Lightning Damage to Spells",
+              "tier": "2",
+              "weigth": "800",
+              "ilvl": "62"
+            },
+            {
+              "parentId": "2291",
+              "type": "prefixes",
+              "name": "Adds (4-14) to (170-179) Lightning Damage to Spells",
+              "tier": "1",
+              "weigth": "800",
+              "ilvl": "74"
+            }
+          ]
+        },
+        {
+          "id": "1976",
+          "type": "prefixes",
+          "name": "Adds # to # Physical Damage",
+          "ntiers": "9",
+          "weigth": "7000",
+          "ilvl": "77",
+          "tags": [
+            "Damage",
+            "Physical",
+            "Attack"
+          ],
+          "tiers": [
+            {
+              "parentId": "1976",
+              "type": "prefixes",
+              "name": "Adds 1 to (2-3) Physical Damage",
+              "tier": "9",
+              "weigth": "1000",
+              "ilvl": "2"
+            },
+            {
+              "parentId": "1976",
+              "type": "prefixes",
+              "name": "Adds (4-5) to (8-9) Physical Damage",
+              "tier": "8",
+              "weigth": "1000",
+              "ilvl": "13"
+            },
+            {
+              "parentId": "1976",
+              "type": "prefixes",
+              "name": "Adds (6-9) to (13-15) Physical Damage",
+              "tier": "7",
+              "weigth": "1000",
+              "ilvl": "21"
+            },
+            {
+              "parentId": "1976",
+              "type": "prefixes",
+              "name": "Adds (8-12) to (17-20) Physical Damage",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "29"
+            },
+            {
+              "parentId": "1976",
+              "type": "prefixes",
+              "name": "Adds (11-14) to (21-25) Physical Damage",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "36"
+            },
+            {
+              "parentId": "1976",
+              "type": "prefixes",
+              "name": "Adds (13-18) to (27-31) Physical Damage",
+              "tier": "4",
+              "weigth": "800",
+              "ilvl": "46"
+            },
+            {
+              "parentId": "1976",
+              "type": "prefixes",
+              "name": "Adds (16-21) to (32-38) Physical Damage",
+              "tier": "3",
+              "weigth": "600",
+              "ilvl": "54"
+            },
+            {
+              "parentId": "1976",
+              "type": "prefixes",
+              "name": "Adds (19-25) to (39-45) Physical Damage",
+              "tier": "2",
+              "weigth": "400",
+              "ilvl": "65"
+            },
+            {
+              "parentId": "1976",
+              "type": "prefixes",
+              "name": "Adds (22-29) to (45-52) Physical Damage",
+              "tier": "1",
+              "weigth": "200",
+              "ilvl": "77"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "id": "629",
+          "type": "suffixes",
+          "name": "#% chance to Freeze",
+          "ntiers": "3",
+          "weigth": "2500",
+          "ilvl": "75",
+          "tags": [
+            "Elemental",
+            "Cold",
+            "Ailment"
+          ],
+          "tiers": [
+            {
+              "parentId": "629",
+              "type": "suffixes",
+              "name": "10% chance to Freeze",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "15"
+            },
+            {
+              "parentId": "629",
+              "type": "suffixes",
+              "name": "15% chance to Freeze",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "45"
+            },
+            {
+              "parentId": "629",
+              "type": "suffixes",
+              "name": "20% chance to Freeze",
+              "tier": "1",
+              "weigth": "500",
+              "ilvl": "75"
+            }
+          ]
+        },
+        {
+          "id": "638",
+          "type": "suffixes",
+          "name": "#% chance to Ignite",
+          "ntiers": "3",
+          "weigth": "2500",
+          "ilvl": "75",
+          "tags": [
+            "Elemental",
+            "Fire",
+            "Ailment"
+          ],
+          "tiers": [
+            {
+              "parentId": "638",
+              "type": "suffixes",
+              "name": "10% chance to Ignite",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "15"
+            },
+            {
+              "parentId": "638",
+              "type": "suffixes",
+              "name": "15% chance to Ignite",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "45"
+            },
+            {
+              "parentId": "638",
+              "type": "suffixes",
+              "name": "20% chance to Ignite",
+              "tier": "1",
+              "weigth": "500",
+              "ilvl": "75"
+            }
+          ]
+        },
+        {
+          "id": "646",
+          "type": "suffixes",
+          "name": "#% chance to Shock",
+          "ntiers": "3",
+          "weigth": "2500",
+          "ilvl": "75",
+          "tags": [
+            "Elemental",
+            "Lightning",
+            "Ailment"
+          ],
+          "tiers": [
+            {
+              "parentId": "646",
+              "type": "suffixes",
+              "name": "10% chance to Shock",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "15"
+            },
+            {
+              "parentId": "646",
+              "type": "suffixes",
+              "name": "15% chance to Shock",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "45"
+            },
+            {
+              "parentId": "646",
+              "type": "suffixes",
+              "name": "20% chance to Shock",
+              "tier": "1",
+              "weigth": "500",
+              "ilvl": "75"
+            }
+          ]
+        },
+        {
+          "id": "1753",
+          "type": "suffixes",
+          "name": "#% increased Attack Speed",
+          "ntiers": "5",
+          "weigth": "4000",
+          "ilvl": "37",
+          "tags": [
+            "Attack",
+            "Speed"
+          ],
+          "tiers": [
+            {
+              "parentId": "1753",
+              "type": "suffixes",
+              "name": "(5-7)% increased Attack Speed",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "1753",
+              "type": "suffixes",
+              "name": "(8-10)% increased Attack Speed",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "1753",
+              "type": "suffixes",
+              "name": "(11-13)% increased Attack Speed",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "22"
+            },
+            {
+              "parentId": "1753",
+              "type": "suffixes",
+              "name": "(14-16)% increased Attack Speed",
+              "tier": "2",
+              "weigth": "500",
+              "ilvl": "30"
+            },
+            {
+              "parentId": "1753",
+              "type": "suffixes",
+              "name": "(17-19)% increased Attack Speed",
+              "tier": "1",
+              "weigth": "500",
+              "ilvl": "37"
+            }
+          ]
+        },
+        {
+          "id": "602",
+          "type": "suffixes",
+          "name": "#% increased Burning Damage",
+          "ntiers": "3",
+          "weigth": "3750",
+          "ilvl": "60",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Fire"
+          ],
+          "tiers": [
+            {
+              "parentId": "602",
+              "type": "suffixes",
+              "name": "(26-30)% increased Burning Damage",
+              "tier": "3",
+              "weigth": "1500",
+              "ilvl": "20"
+            },
+            {
+              "parentId": "602",
+              "type": "suffixes",
+              "name": "(31-35)% increased Burning Damage",
+              "tier": "2",
+              "weigth": "1500",
+              "ilvl": "40"
+            },
+            {
+              "parentId": "602",
+              "type": "suffixes",
+              "name": "(36-40)% increased Burning Damage",
+              "tier": "1",
+              "weigth": "750",
+              "ilvl": "60"
+            }
+          ]
+        },
+        {
+          "id": "1757",
+          "type": "suffixes",
+          "name": "#% increased Cast Speed",
+          "ntiers": "7",
+          "weigth": "5750",
+          "ilvl": "83",
+          "tags": [
+            "Caster",
+            "Speed"
+          ],
+          "tiers": [
+            {
+              "parentId": "1757",
+              "type": "suffixes",
+              "name": "(5-8)% increased Cast Speed",
+              "tier": "7",
+              "weigth": "1000",
+              "ilvl": "2"
+            },
+            {
+              "parentId": "1757",
+              "type": "suffixes",
+              "name": "(9-12)% increased Cast Speed",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "15"
+            },
+            {
+              "parentId": "1757",
+              "type": "suffixes",
+              "name": "(13-16)% increased Cast Speed",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "30"
+            },
+            {
+              "parentId": "1757",
+              "type": "suffixes",
+              "name": "(17-20)% increased Cast Speed",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "40"
+            },
+            {
+              "parentId": "1757",
+              "type": "suffixes",
+              "name": "(21-24)% increased Cast Speed",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "55"
+            },
+            {
+              "parentId": "1757",
+              "type": "suffixes",
+              "name": "(25-28)% increased Cast Speed",
+              "tier": "2",
+              "weigth": "500",
+              "ilvl": "72"
+            },
+            {
+              "parentId": "1757",
+              "type": "suffixes",
+              "name": "(29-32)% increased Cast Speed",
+              "tier": "1",
+              "weigth": "250",
+              "ilvl": "83"
+            }
+          ]
+        },
+        {
+          "id": "677",
+          "type": "suffixes",
+          "name": "#% increased Cold Damage",
+          "ntiers": "6",
+          "weigth": "6000",
+          "ilvl": "76",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Cold"
+          ],
+          "tiers": [
+            {
+              "parentId": "677",
+              "type": "suffixes",
+              "name": "(3-7)% increased Cold Damage",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "12"
+            },
+            {
+              "parentId": "677",
+              "type": "suffixes",
+              "name": "(8-12)% increased Cold Damage",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "24"
+            },
+            {
+              "parentId": "677",
+              "type": "suffixes",
+              "name": "(13-17)% increased Cold Damage",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "36"
+            },
+            {
+              "parentId": "677",
+              "type": "suffixes",
+              "name": "(18-22)% increased Cold Damage",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "50"
+            },
+            {
+              "parentId": "677",
+              "type": "suffixes",
+              "name": "(23-26)% increased Cold Damage",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "64"
+            },
+            {
+              "parentId": "677",
+              "type": "suffixes",
+              "name": "(27-30)% increased Cold Damage",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "76"
+            }
+          ]
+        },
+        {
+          "id": "1985",
+          "type": "suffixes",
+          "name": "#% increased Critical Strike Chance",
+          "ntiers": "6",
+          "weigth": "6000",
+          "ilvl": "73",
+          "tags": [
+            "Attack",
+            "Critical"
+          ],
+          "tiers": [
+            {
+              "parentId": "1985",
+              "type": "suffixes",
+              "name": "(10-14)% increased Critical Strike Chance",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "1985",
+              "type": "suffixes",
+              "name": "(15-19)% increased Critical Strike Chance",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "20"
+            },
+            {
+              "parentId": "1985",
+              "type": "suffixes",
+              "name": "(20-24)% increased Critical Strike Chance",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "30"
+            },
+            {
+              "parentId": "1985",
+              "type": "suffixes",
+              "name": "(25-29)% increased Critical Strike Chance",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "44"
+            },
+            {
+              "parentId": "1985",
+              "type": "suffixes",
+              "name": "(30-34)% increased Critical Strike Chance",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "59"
+            },
+            {
+              "parentId": "1985",
+              "type": "suffixes",
+              "name": "(35-38)% increased Critical Strike Chance",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "73"
+            }
+          ]
+        },
+        {
+          "id": "2305",
+          "type": "suffixes",
+          "name": "#% increased Critical Strike Chance for Spells",
+          "ntiers": "6",
+          "weigth": "6000",
+          "ilvl": "76",
+          "tags": [
+            "Caster",
+            "Critical"
+          ],
+          "tiers": [
+            {
+              "parentId": "2305",
+              "type": "suffixes",
+              "name": "(10-19)% increased Critical Strike Chance for Spells",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "2305",
+              "type": "suffixes",
+              "name": "(20-39)% increased Critical Strike Chance for Spells",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "21"
+            },
+            {
+              "parentId": "2305",
+              "type": "suffixes",
+              "name": "(40-59)% increased Critical Strike Chance for Spells",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "28"
+            },
+            {
+              "parentId": "2305",
+              "type": "suffixes",
+              "name": "(60-79)% increased Critical Strike Chance for Spells",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "41"
+            },
+            {
+              "parentId": "2305",
+              "type": "suffixes",
+              "name": "(80-99)% increased Critical Strike Chance for Spells",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "59"
+            },
+            {
+              "parentId": "2305",
+              "type": "suffixes",
+              "name": "(100-109)% increased Critical Strike Chance for Spells",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "76"
+            }
+          ]
+        },
+        {
+          "id": "1621",
+          "type": "suffixes",
+          "name": "#% increased Fire Damage",
+          "ntiers": "6",
+          "weigth": "6000",
+          "ilvl": "76",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Fire"
+          ],
+          "tiers": [
+            {
+              "parentId": "1621",
+              "type": "suffixes",
+              "name": "(3-7)% increased Fire Damage",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "8"
+            },
+            {
+              "parentId": "1621",
+              "type": "suffixes",
+              "name": "(8-12)% increased Fire Damage",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "22"
+            },
+            {
+              "parentId": "1621",
+              "type": "suffixes",
+              "name": "(13-17)% increased Fire Damage",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "36"
+            },
+            {
+              "parentId": "1621",
+              "type": "suffixes",
+              "name": "(18-22)% increased Fire Damage",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "50"
+            },
+            {
+              "parentId": "1621",
+              "type": "suffixes",
+              "name": "(23-26)% increased Fire Damage",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "64"
+            },
+            {
+              "parentId": "1621",
+              "type": "suffixes",
+              "name": "(27-30)% increased Fire Damage",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "76"
+            }
+          ]
+        },
+        {
+          "id": "1952",
+          "type": "suffixes",
+          "name": "#% increased Light Radius, #% increased Global Accuracy Rating",
+          "ntiers": "3",
+          "weigth": "1500",
+          "ilvl": "30",
+          "tags": [
+            "Attack"
+          ],
+          "tiers": [
+            {
+              "parentId": "1952",
+              "type": "suffixes",
+              "name": "5% increased Light Radius, (9-11)% increased Global Accuracy Rating",
+              "tier": "3",
+              "weigth": "500",
+              "ilvl": "8"
+            },
+            {
+              "parentId": "1952",
+              "type": "suffixes",
+              "name": "10% increased Light Radius, (12-15)% increased Global Accuracy Rating",
+              "tier": "2",
+              "weigth": "500",
+              "ilvl": "15"
+            },
+            {
+              "parentId": "1952",
+              "type": "suffixes",
+              "name": "15% increased Light Radius, (16-20)% increased Global Accuracy Rating",
+              "tier": "1",
+              "weigth": "500",
+              "ilvl": "30"
+            }
+          ]
+        },
+        {
+          "id": "1960",
+          "type": "suffixes",
+          "name": "#% increased Lightning Damage",
+          "ntiers": "6",
+          "weigth": "6000",
+          "ilvl": "76",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Lightning"
+          ],
+          "tiers": [
+            {
+              "parentId": "1960",
+              "type": "suffixes",
+              "name": "(3-7)% increased Lightning Damage",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "10"
+            },
+            {
+              "parentId": "1960",
+              "type": "suffixes",
+              "name": "(8-12)% increased Lightning Damage",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "23"
+            },
+            {
+              "parentId": "1960",
+              "type": "suffixes",
+              "name": "(13-17)% increased Lightning Damage",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "36"
+            },
+            {
+              "parentId": "1960",
+              "type": "suffixes",
+              "name": "(18-22)% increased Lightning Damage",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "50"
+            },
+            {
+              "parentId": "1960",
+              "type": "suffixes",
+              "name": "(23-26)% increased Lightning Damage",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "64"
+            },
+            {
+              "parentId": "1960",
+              "type": "suffixes",
+              "name": "(27-30)% increased Lightning Damage",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "76"
+            }
+          ]
+        },
+        {
+          "id": "2057",
+          "type": "suffixes",
+          "name": "#% increased  Regeneration RateMana",
+          "ntiers": "6",
+          "weigth": "6000",
+          "ilvl": "79",
+          "tags": [
+            "Mana"
+          ],
+          "tiers": [
+            {
+              "parentId": "2057",
+              "type": "suffixes",
+              "name": "(10-19)% increased Mana Regeneration Rate",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "2"
+            },
+            {
+              "parentId": "2057",
+              "type": "suffixes",
+              "name": "(20-29)% increased Mana Regeneration Rate",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "18"
+            },
+            {
+              "parentId": "2057",
+              "type": "suffixes",
+              "name": "(30-39)% increased Mana Regeneration Rate",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "29"
+            },
+            {
+              "parentId": "2057",
+              "type": "suffixes",
+              "name": "(40-49)% increased Mana Regeneration Rate",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "42"
+            },
+            {
+              "parentId": "2057",
+              "type": "suffixes",
+              "name": "(50-59)% increased Mana Regeneration Rate",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "55"
+            },
+            {
+              "parentId": "2057",
+              "type": "suffixes",
+              "name": "(60-69)% increased Mana Regeneration Rate",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "79"
+            }
+          ]
+        },
+        {
+          "id": "2219",
+          "type": "suffixes",
+          "name": "#% increased Projectile Speed",
+          "ntiers": "5",
+          "weigth": "5000",
+          "ilvl": "82",
+          "tags": [
+            "Speed"
+          ],
+          "tiers": [
+            {
+              "parentId": "2219",
+              "type": "suffixes",
+              "name": "(10-17)% increased Projectile Speed",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "14"
+            },
+            {
+              "parentId": "2219",
+              "type": "suffixes",
+              "name": "(18-25)% increased Projectile Speed",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "27"
+            },
+            {
+              "parentId": "2219",
+              "type": "suffixes",
+              "name": "(26-33)% increased Projectile Speed",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "41"
+            },
+            {
+              "parentId": "2219",
+              "type": "suffixes",
+              "name": "(34-41)% increased Projectile Speed",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "55"
+            },
+            {
+              "parentId": "2219",
+              "type": "suffixes",
+              "name": "(42-46)% increased Projectile Speed",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "82"
+            }
+          ]
+        },
+        {
+          "id": "2342",
+          "type": "suffixes",
+          "name": "#% increased Stun Duration on Enemies",
+          "ntiers": "5",
+          "weigth": "5000",
+          "ilvl": "58",
+          "tags": [],
+          "tiers": [
+            {
+              "parentId": "2342",
+              "type": "suffixes",
+              "name": "(11-15)% increased Stun Duration on Enemies",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "5"
+            },
+            {
+              "parentId": "2342",
+              "type": "suffixes",
+              "name": "(16-20)% increased Stun Duration on Enemies",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "18"
+            },
+            {
+              "parentId": "2342",
+              "type": "suffixes",
+              "name": "(21-25)% increased Stun Duration on Enemies",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "30"
+            },
+            {
+              "parentId": "2342",
+              "type": "suffixes",
+              "name": "(26-30)% increased Stun Duration on Enemies",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "44"
+            },
+            {
+              "parentId": "2342",
+              "type": "suffixes",
+              "name": "(31-35)% increased Stun Duration on Enemies",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "58"
+            }
+          ]
+        },
+        {
+          "id": "2241",
+          "type": "suffixes",
+          "name": "#% reduced Attribute Requirements",
+          "ntiers": "2",
+          "weigth": "2000",
+          "ilvl": "60",
+          "tags": [],
+          "tiers": [
+            {
+              "parentId": "2241",
+              "type": "suffixes",
+              "name": "18% reduced Attribute Requirements",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "36"
+            },
+            {
+              "parentId": "2241",
+              "type": "suffixes",
+              "name": "32% reduced Attribute Requirements",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "60"
+            }
+          ]
+        },
+        {
+          "id": "1746",
+          "type": "suffixes",
+          "name": "+# to Accuracy Rating",
+          "ntiers": "6",
+          "weigth": "6000",
+          "ilvl": "85",
+          "tags": [
+            "Attack"
+          ],
+          "tiers": [
+            {
+              "parentId": "1746",
+              "type": "suffixes",
+              "name": "+(80-130) to Accuracy Rating",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "1746",
+              "type": "suffixes",
+              "name": "+(131-215) to Accuracy Rating",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "20"
+            },
+            {
+              "parentId": "1746",
+              "type": "suffixes",
+              "name": "+(216-325) to Accuracy Rating",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "40"
+            },
+            {
+              "parentId": "1746",
+              "type": "suffixes",
+              "name": "+(326-455) to Accuracy Rating",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "60"
+            },
+            {
+              "parentId": "1746",
+              "type": "suffixes",
+              "name": "+(456-624) to Accuracy Rating",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "75"
+            },
+            {
+              "parentId": "1746",
+              "type": "suffixes",
+              "name": "+(625-780) to Accuracy Rating",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "85"
+            }
+          ]
+        },
+        {
+          "id": "1784",
+          "type": "suffixes",
+          "name": "+# to Intelligence",
+          "ntiers": "9",
+          "weigth": "9000",
+          "ilvl": "82",
+          "tags": [
+            "Attribute"
+          ],
+          "tiers": [
+            {
+              "parentId": "1784",
+              "type": "suffixes",
+              "name": "+(8-12) to Intelligence",
+              "tier": "9",
+              "weigth": "1000",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "1784",
+              "type": "suffixes",
+              "name": "+(13-17) to Intelligence",
+              "tier": "8",
+              "weigth": "1000",
+              "ilvl": "11"
+            },
+            {
+              "parentId": "1784",
+              "type": "suffixes",
+              "name": "+(18-22) to Intelligence",
+              "tier": "7",
+              "weigth": "1000",
+              "ilvl": "22"
+            },
+            {
+              "parentId": "1784",
+              "type": "suffixes",
+              "name": "+(23-27) to Intelligence",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "33"
+            },
+            {
+              "parentId": "1784",
+              "type": "suffixes",
+              "name": "+(28-32) to Intelligence",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "44"
+            },
+            {
+              "parentId": "1784",
+              "type": "suffixes",
+              "name": "+(33-37) to Intelligence",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "55"
+            },
+            {
+              "parentId": "1784",
+              "type": "suffixes",
+              "name": "+(38-42) to Intelligence",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "66"
+            },
+            {
+              "parentId": "1784",
+              "type": "suffixes",
+              "name": "+(43-50) to Intelligence",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "74"
+            },
+            {
+              "parentId": "1784",
+              "type": "suffixes",
+              "name": "+(51-55) to Intelligence",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "82"
+            }
+          ]
+        },
+        {
+          "id": "659",
+          "type": "suffixes",
+          "name": "+#% to Chaos Damage over Time Multiplier",
+          "ntiers": "5",
+          "weigth": "1050",
+          "ilvl": "78",
+          "tags": [
+            "Chaos",
+            "Damage"
+          ],
+          "tiers": [
+            {
+              "parentId": "659",
+              "type": "suffixes",
+              "name": "+(14-18)% to Chaos Damage over Time Multiplier",
+              "tier": "5",
+              "weigth": "400",
+              "ilvl": "4"
+            },
+            {
+              "parentId": "659",
+              "type": "suffixes",
+              "name": "+(19-23)% to Chaos Damage over Time Multiplier",
+              "tier": "4",
+              "weigth": "300",
+              "ilvl": "12"
+            },
+            {
+              "parentId": "659",
+              "type": "suffixes",
+              "name": "+(24-28)% to Chaos Damage over Time Multiplier",
+              "tier": "3",
+              "weigth": "200",
+              "ilvl": "36"
+            },
+            {
+              "parentId": "659",
+              "type": "suffixes",
+              "name": "+(29-33)% to Chaos Damage over Time Multiplier",
+              "tier": "2",
+              "weigth": "100",
+              "ilvl": "64"
+            },
+            {
+              "parentId": "659",
+              "type": "suffixes",
+              "name": "+(34-38)% to Chaos Damage over Time Multiplier",
+              "tier": "1",
+              "weigth": "50",
+              "ilvl": "78"
+            }
+          ]
+        },
+        {
+          "id": "661",
+          "type": "suffixes",
+          "name": "+#% to Chaos Resistance",
+          "ntiers": "6",
+          "weigth": "750",
+          "ilvl": "81",
+          "tags": [
+            "Chaos",
+            "Resistance"
+          ],
+          "tiers": [
+            {
+              "parentId": "661",
+              "type": "suffixes",
+              "name": "+(5-10)% to Chaos Resistance",
+              "tier": "6",
+              "weigth": "125",
+              "ilvl": "16"
+            },
+            {
+              "parentId": "661",
+              "type": "suffixes",
+              "name": "+(11-15)% to Chaos Resistance",
+              "tier": "5",
+              "weigth": "125",
+              "ilvl": "30"
+            },
+            {
+              "parentId": "661",
+              "type": "suffixes",
+              "name": "+(16-20)% to Chaos Resistance",
+              "tier": "4",
+              "weigth": "125",
+              "ilvl": "44"
+            },
+            {
+              "parentId": "661",
+              "type": "suffixes",
+              "name": "+(21-25)% to Chaos Resistance",
+              "tier": "3",
+              "weigth": "125",
+              "ilvl": "56"
+            },
+            {
+              "parentId": "661",
+              "type": "suffixes",
+              "name": "+(26-30)% to Chaos Resistance",
+              "tier": "2",
+              "weigth": "125",
+              "ilvl": "65"
+            },
+            {
+              "parentId": "661",
+              "type": "suffixes",
+              "name": "+(31-35)% to Chaos Resistance",
+              "tier": "1",
+              "weigth": "125",
+              "ilvl": "81"
+            }
+          ]
+        },
+        {
+          "id": "674",
+          "type": "suffixes",
+          "name": "+#% to Cold Damage over Time Multiplier",
+          "ntiers": "5",
+          "weigth": "765",
+          "ilvl": "78",
+          "tags": [
+            "Cold",
+            "Damage",
+            "Elemental"
+          ],
+          "tiers": [
+            {
+              "parentId": "674",
+              "type": "suffixes",
+              "name": "+(14-18)% to Cold Damage over Time Multiplier",
+              "tier": "5",
+              "weigth": "300",
+              "ilvl": "4"
+            },
+            {
+              "parentId": "674",
+              "type": "suffixes",
+              "name": "+(19-23)% to Cold Damage over Time Multiplier",
+              "tier": "4",
+              "weigth": "220",
+              "ilvl": "12"
+            },
+            {
+              "parentId": "674",
+              "type": "suffixes",
+              "name": "+(24-28)% to Cold Damage over Time Multiplier",
+              "tier": "3",
+              "weigth": "140",
+              "ilvl": "36"
+            },
+            {
+              "parentId": "674",
+              "type": "suffixes",
+              "name": "+(29-33)% to Cold Damage over Time Multiplier",
+              "tier": "2",
+              "weigth": "70",
+              "ilvl": "64"
+            },
+            {
+              "parentId": "674",
+              "type": "suffixes",
+              "name": "+(34-38)% to Cold Damage over Time Multiplier",
+              "tier": "1",
+              "weigth": "35",
+              "ilvl": "78"
+            }
+          ]
+        },
+        {
+          "id": "684",
+          "type": "suffixes",
+          "name": "+#% to Cold Resistance",
+          "ntiers": "8",
+          "weigth": "4000",
+          "ilvl": "84",
+          "tags": [
+            "Elemental",
+            "Cold",
+            "Resistance"
+          ],
+          "tiers": [
+            {
+              "parentId": "684",
+              "type": "suffixes",
+              "name": "+(6-11)% to Cold Resistance",
+              "tier": "8",
+              "weigth": "500",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "684",
+              "type": "suffixes",
+              "name": "+(12-17)% to Cold Resistance",
+              "tier": "7",
+              "weigth": "500",
+              "ilvl": "14"
+            },
+            {
+              "parentId": "684",
+              "type": "suffixes",
+              "name": "+(18-23)% to Cold Resistance",
+              "tier": "6",
+              "weigth": "500",
+              "ilvl": "26"
+            },
+            {
+              "parentId": "684",
+              "type": "suffixes",
+              "name": "+(24-29)% to Cold Resistance",
+              "tier": "5",
+              "weigth": "500",
+              "ilvl": "38"
+            },
+            {
+              "parentId": "684",
+              "type": "suffixes",
+              "name": "+(30-35)% to Cold Resistance",
+              "tier": "4",
+              "weigth": "500",
+              "ilvl": "50"
+            },
+            {
+              "parentId": "684",
+              "type": "suffixes",
+              "name": "+(36-41)% to Cold Resistance",
+              "tier": "3",
+              "weigth": "500",
+              "ilvl": "60"
+            },
+            {
+              "parentId": "684",
+              "type": "suffixes",
+              "name": "+(42-45)% to Cold Resistance",
+              "tier": "2",
+              "weigth": "500",
+              "ilvl": "72"
+            },
+            {
+              "parentId": "684",
+              "type": "suffixes",
+              "name": "+(46-48)% to Cold Resistance",
+              "tier": "1",
+              "weigth": "500",
+              "ilvl": "84"
+            }
+          ]
+        },
+        {
+          "id": "1701",
+          "type": "suffixes",
+          "name": "+#% to  over Time MultiplierDamage",
+          "ntiers": "5",
+          "weigth": "1500",
+          "ilvl": "82",
+          "tags": [
+            "Damage"
+          ],
+          "tiers": [
+            {
+              "parentId": "1701",
+              "type": "suffixes",
+              "name": "+(7-11)% to Damage over Time Multiplier",
+              "tier": "5",
+              "weigth": "300",
+              "ilvl": "44"
+            },
+            {
+              "parentId": "1701",
+              "type": "suffixes",
+              "name": "+(12-15)% to Damage over Time Multiplier",
+              "tier": "4",
+              "weigth": "300",
+              "ilvl": "55"
+            },
+            {
+              "parentId": "1701",
+              "type": "suffixes",
+              "name": "+(16-19)% to Damage over Time Multiplier",
+              "tier": "3",
+              "weigth": "300",
+              "ilvl": "68"
+            },
+            {
+              "parentId": "1701",
+              "type": "suffixes",
+              "name": "+(20-23)% to Damage over Time Multiplier",
+              "tier": "2",
+              "weigth": "300",
+              "ilvl": "76"
+            },
+            {
+              "parentId": "1701",
+              "type": "suffixes",
+              "name": "+(24-26)% to Damage over Time Multiplier",
+              "tier": "1",
+              "weigth": "300",
+              "ilvl": "82"
+            }
+          ]
+        },
+        {
+          "id": "1618",
+          "type": "suffixes",
+          "name": "+#% to Fire Damage over Time Multiplier",
+          "ntiers": "5",
+          "weigth": "765",
+          "ilvl": "78",
+          "tags": [
+            "Damage",
+            "Elemental",
+            "Fire"
+          ],
+          "tiers": [
+            {
+              "parentId": "1618",
+              "type": "suffixes",
+              "name": "+(14-18)% to Fire Damage over Time Multiplier",
+              "tier": "5",
+              "weigth": "300",
+              "ilvl": "4"
+            },
+            {
+              "parentId": "1618",
+              "type": "suffixes",
+              "name": "+(19-23)% to Fire Damage over Time Multiplier",
+              "tier": "4",
+              "weigth": "220",
+              "ilvl": "12"
+            },
+            {
+              "parentId": "1618",
+              "type": "suffixes",
+              "name": "+(24-28)% to Fire Damage over Time Multiplier",
+              "tier": "3",
+              "weigth": "140",
+              "ilvl": "36"
+            },
+            {
+              "parentId": "1618",
+              "type": "suffixes",
+              "name": "+(29-33)% to Fire Damage over Time Multiplier",
+              "tier": "2",
+              "weigth": "70",
+              "ilvl": "64"
+            },
+            {
+              "parentId": "1618",
+              "type": "suffixes",
+              "name": "+(34-38)% to Fire Damage over Time Multiplier",
+              "tier": "1",
+              "weigth": "35",
+              "ilvl": "78"
+            }
+          ]
+        },
+        {
+          "id": "1628",
+          "type": "suffixes",
+          "name": "+#% to Fire Resistance",
+          "ntiers": "8",
+          "weigth": "4000",
+          "ilvl": "84",
+          "tags": [
+            "Elemental",
+            "Fire",
+            "Resistance"
+          ],
+          "tiers": [
+            {
+              "parentId": "1628",
+              "type": "suffixes",
+              "name": "+(6-11)% to Fire Resistance",
+              "tier": "8",
+              "weigth": "500",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "1628",
+              "type": "suffixes",
+              "name": "+(12-17)% to Fire Resistance",
+              "tier": "7",
+              "weigth": "500",
+              "ilvl": "12"
+            },
+            {
+              "parentId": "1628",
+              "type": "suffixes",
+              "name": "+(18-23)% to Fire Resistance",
+              "tier": "6",
+              "weigth": "500",
+              "ilvl": "24"
+            },
+            {
+              "parentId": "1628",
+              "type": "suffixes",
+              "name": "+(24-29)% to Fire Resistance",
+              "tier": "5",
+              "weigth": "500",
+              "ilvl": "36"
+            },
+            {
+              "parentId": "1628",
+              "type": "suffixes",
+              "name": "+(30-35)% to Fire Resistance",
+              "tier": "4",
+              "weigth": "500",
+              "ilvl": "48"
+            },
+            {
+              "parentId": "1628",
+              "type": "suffixes",
+              "name": "+(36-41)% to Fire Resistance",
+              "tier": "3",
+              "weigth": "500",
+              "ilvl": "60"
+            },
+            {
+              "parentId": "1628",
+              "type": "suffixes",
+              "name": "+(42-45)% to Fire Resistance",
+              "tier": "2",
+              "weigth": "500",
+              "ilvl": "72"
+            },
+            {
+              "parentId": "1628",
+              "type": "suffixes",
+              "name": "+(46-48)% to Fire Resistance",
+              "tier": "1",
+              "weigth": "500",
+              "ilvl": "84"
+            }
+          ]
+        },
+        {
+          "id": "696",
+          "type": "suffixes",
+          "name": "+#% to Global Critical Strike Multiplier",
+          "ntiers": "6",
+          "weigth": "6000",
+          "ilvl": "73",
+          "tags": [
+            "Damage",
+            "Critical"
+          ],
+          "tiers": [
+            {
+              "parentId": "696",
+              "type": "suffixes",
+              "name": "+(10-14)% to Global Critical Strike Multiplier",
+              "tier": "6",
+              "weigth": "1000",
+              "ilvl": "8"
+            },
+            {
+              "parentId": "696",
+              "type": "suffixes",
+              "name": "+(15-19)% to Global Critical Strike Multiplier",
+              "tier": "5",
+              "weigth": "1000",
+              "ilvl": "21"
+            },
+            {
+              "parentId": "696",
+              "type": "suffixes",
+              "name": "+(20-24)% to Global Critical Strike Multiplier",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "30"
+            },
+            {
+              "parentId": "696",
+              "type": "suffixes",
+              "name": "+(25-29)% to Global Critical Strike Multiplier",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "44"
+            },
+            {
+              "parentId": "696",
+              "type": "suffixes",
+              "name": "+(30-34)% to Global Critical Strike Multiplier",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "59"
+            },
+            {
+              "parentId": "696",
+              "type": "suffixes",
+              "name": "+(35-38)% to Global Critical Strike Multiplier",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "73"
+            }
+          ]
+        },
+        {
+          "id": "1966",
+          "type": "suffixes",
+          "name": "+#% to Lightning Resistance",
+          "ntiers": "8",
+          "weigth": "4000",
+          "ilvl": "84",
+          "tags": [
+            "Elemental",
+            "Lightning",
+            "Resistance"
+          ],
+          "tiers": [
+            {
+              "parentId": "1966",
+              "type": "suffixes",
+              "name": "+(6-11)% to Lightning Resistance",
+              "tier": "8",
+              "weigth": "500",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "1966",
+              "type": "suffixes",
+              "name": "+(12-17)% to Lightning Resistance",
+              "tier": "7",
+              "weigth": "500",
+              "ilvl": "13"
+            },
+            {
+              "parentId": "1966",
+              "type": "suffixes",
+              "name": "+(18-23)% to Lightning Resistance",
+              "tier": "6",
+              "weigth": "500",
+              "ilvl": "25"
+            },
+            {
+              "parentId": "1966",
+              "type": "suffixes",
+              "name": "+(24-29)% to Lightning Resistance",
+              "tier": "5",
+              "weigth": "500",
+              "ilvl": "37"
+            },
+            {
+              "parentId": "1966",
+              "type": "suffixes",
+              "name": "+(30-35)% to Lightning Resistance",
+              "tier": "4",
+              "weigth": "500",
+              "ilvl": "49"
+            },
+            {
+              "parentId": "1966",
+              "type": "suffixes",
+              "name": "+(36-41)% to Lightning Resistance",
+              "tier": "3",
+              "weigth": "500",
+              "ilvl": "60"
+            },
+            {
+              "parentId": "1966",
+              "type": "suffixes",
+              "name": "+(42-45)% to Lightning Resistance",
+              "tier": "2",
+              "weigth": "500",
+              "ilvl": "72"
+            },
+            {
+              "parentId": "1966",
+              "type": "suffixes",
+              "name": "+(46-48)% to Lightning Resistance",
+              "tier": "1",
+              "weigth": "500",
+              "ilvl": "84"
+            }
+          ]
+        },
+        {
+          "id": "3774",
+          "type": "suffixes",
+          "name": "+#% to Physical Damage over Time Multiplier",
+          "ntiers": "5",
+          "weigth": "765",
+          "ilvl": "78",
+          "tags": [
+            "Damage",
+            "Physical"
+          ],
+          "tiers": [
+            {
+              "parentId": "3774",
+              "type": "suffixes",
+              "name": "+(14-18)% to Physical Damage over Time Multiplier",
+              "tier": "5",
+              "weigth": "300",
+              "ilvl": "4"
+            },
+            {
+              "parentId": "3774",
+              "type": "suffixes",
+              "name": "+(19-23)% to Physical Damage over Time Multiplier",
+              "tier": "4",
+              "weigth": "220",
+              "ilvl": "12"
+            },
+            {
+              "parentId": "3774",
+              "type": "suffixes",
+              "name": "+(24-28)% to Physical Damage over Time Multiplier",
+              "tier": "3",
+              "weigth": "140",
+              "ilvl": "36"
+            },
+            {
+              "parentId": "3774",
+              "type": "suffixes",
+              "name": "+(29-33)% to Physical Damage over Time Multiplier",
+              "tier": "2",
+              "weigth": "70",
+              "ilvl": "64"
+            },
+            {
+              "parentId": "3774",
+              "type": "suffixes",
+              "name": "+(34-38)% to Physical Damage over Time Multiplier",
+              "tier": "1",
+              "weigth": "35",
+              "ilvl": "78"
+            }
+          ]
+        },
+        {
+          "id": "1938",
+          "type": "suffixes",
+          "name": "Gain #  per Enemy KilledLife",
+          "ntiers": "3",
+          "weigth": "3000",
+          "ilvl": "40",
+          "tags": [
+            "Life"
+          ],
+          "tiers": [
+            {
+              "parentId": "1938",
+              "type": "suffixes",
+              "name": "Gain (3-6) Life per Enemy Killed",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "1938",
+              "type": "suffixes",
+              "name": "Gain (7-10) Life per Enemy Killed",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "23"
+            },
+            {
+              "parentId": "1938",
+              "type": "suffixes",
+              "name": "Gain (11-14) Life per Enemy Killed",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "40"
+            }
+          ]
+        },
+        {
+          "id": "2049",
+          "type": "suffixes",
+          "name": "Gain #  per Enemy KilledMana",
+          "ntiers": "3",
+          "weigth": "3000",
+          "ilvl": "40",
+          "tags": [
+            "Mana"
+          ],
+          "tiers": [
+            {
+              "parentId": "2049",
+              "type": "suffixes",
+              "name": "Gain 1 Mana per Enemy Killed",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "1"
+            },
+            {
+              "parentId": "2049",
+              "type": "suffixes",
+              "name": "Gain (2-3) Mana per Enemy Killed",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "24"
+            },
+            {
+              "parentId": "2049",
+              "type": "suffixes",
+              "name": "Gain (4-6) Mana per Enemy Killed",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "40"
+            }
+          ]
+        },
+        {
+          "id": "1936",
+          "type": "suffixes",
+          "name": "Grants # Life per Enemy Hit",
+          "ntiers": "4",
+          "weigth": "4000",
+          "ilvl": "40",
+          "tags": [
+            "Attack",
+            "Life"
+          ],
+          "tiers": [
+            {
+              "parentId": "1936",
+              "type": "suffixes",
+              "name": "Grants 2 Life per Enemy Hit",
+              "tier": "4",
+              "weigth": "1000",
+              "ilvl": "8"
+            },
+            {
+              "parentId": "1936",
+              "type": "suffixes",
+              "name": "Grants 3 Life per Enemy Hit",
+              "tier": "3",
+              "weigth": "1000",
+              "ilvl": "20"
+            },
+            {
+              "parentId": "1936",
+              "type": "suffixes",
+              "name": "Grants 4 Life per Enemy Hit",
+              "tier": "2",
+              "weigth": "1000",
+              "ilvl": "30"
+            },
+            {
+              "parentId": "1936",
+              "type": "suffixes",
+              "name": "Grants 5 Life per Enemy Hit",
+              "tier": "1",
+              "weigth": "1000",
+              "ilvl": "40"
+            }
+          ]
+        }
+      ]
+    ]
+  }
+]
