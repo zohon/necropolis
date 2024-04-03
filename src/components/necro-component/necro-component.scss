@@ -5,16 +5,30 @@
   font-family: system-ui;
 
 
+  .header {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
   .title {
     font-size: 25px;
     padding: 0 0 15px;
     text-transform: capitalize;
+    display: flex;
+    gap: 15px;
   }
 
   .affix-type {
     display: flex;
     flex-direction: column;
     gap: 5px;
+
+    .all-affix {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
   }
 
   .affixs {
@@ -26,19 +40,60 @@
       gap: 5px;
       padding: 0 5px;
       flex-direction: column;
+      border: 1px solid;
+      user-select: none;
+      cursor: pointer;
 
-      border-left: 4px solid transparent;
+      &:nth-child(even) {
+        background-color: #121212;
+      }
 
       .main {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 5px;
-        padding: 0 5px;
+        padding: 5px;
+
+        .info {
+          gap: 5px;
+          display: flex;
+          align-items: center;
+          margin-right: 25px;
+
+          .name {
+            display: flex;
+            gap: 5px;
+          }
+        }
+
+        .mini-info {
+          display: flex;
+          position: relative;
+          gap: 5px;
+
+          .fav {
+            all: unset;
+            border: 1px solid;
+            width: 18px;
+            margin-left: 10px;
+
+            &:hover {
+              background-color: grey;
+            }
+
+            &.active {
+              background-color: white;
+            }
+          }
+
+        }
+
       }
 
       &:hover {
         border-left: 4px solid white;
+        padding-left: 2px;
 
         .more-info {
           opacity: 1;
@@ -49,20 +104,16 @@
         opacity: 0;
       }
 
-      .info {
-        gap: 5px;
-        display: flex;
-        align-items: center;
-        margin-right: 25px;
-      }
-
-      .mini-info {
-        display: flex;
-      }
-
       .modified {
-        color: green;
         display: flex;
+
+        &.less {
+          color: #970707;
+        }
+
+        &.more {
+          color: rgb(19, 92, 19);
+        }
       }
 
       .tags {
@@ -73,18 +124,19 @@
         .tag {
           border: 1px solid #ccc;
           padding: 3px;
+          font-size: 10px;
         }
       }
 
       .tiers {
         display: none;
 
-
         &.display {
           display: flex;
           gap: 5px;
           padding-left: 15px;
           flex-direction: column;
+          margin-bottom: 10px;
         }
 
         .tier {
@@ -114,17 +166,18 @@
 
 
     &-Elemental {
-      background: linear-gradient(0.25turn, red, blue, yellow);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      background: linear-gradient(0.25turn, rgb(177, 12, 12), rgb(94, 4, 94));
     }
 
     &-Fire {
-      color: red;
+      color: white;
+      background-color: rgb(122, 20, 20);
     }
 
     &-Cold {
-      color: blue;
+      color: white;
+
+      background-color: rgb(22, 22, 138);
     }
 
     &-Lightning {
@@ -152,36 +205,87 @@
 
 
   .cim {
+    padding-bottom: 15px;
+    position: sticky;
     margin-bottom: 15px;
+    top: 0;
+    background: black;
+    z-index: 1;
 
     .allCorpse {
       margin-top: 15px;
       display: flex;
       gap: 5px;
       flex-direction: column;
+      flex-wrap: wrap;
+      max-height: 20vh;
+
+
 
       .corpse {
         display: flex;
         gap: 15px;
         align-items: center;
 
-        .tag {
-          border: 1px solid white;
-          padding: 5px
+        .actions {
+          display: flex;
+          gap: 5px;
+
+          .remove {
+            background-color: #970707;
+            padding: 0px 5px 1px;
+            border-radius: 3px;
+            cursor: pointer;
+          }
+
+          .display {
+            background-color: #4b4b4b;
+            padding: 0px 5px 1px;
+            border-radius: 3px;
+            cursor: pointer;
+          }
+
         }
 
-        .remove {
-          background-color: RED;
-          padding: 0 5px;
-          cursor: pointer;
+        &.active .actions {
+          .display {
+            background-color: #1c4e08;
+          }
         }
+
+        .content {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          opacity: 0.5;
+        }
+
+
+        &.active .content {
+          opacity: 1;
+        }
+
+        .tag {
+          border: 1px solid #ccc;
+          padding: 3px;
+          font-size: 12px;
+        }
+
+
       }
 
     }
 
+    .rating-management {
+      display: flex;
+      align-items: center;
+      height: 30px;
+      gap: 10px;
+    }
 
     .selector {
       display: flex;
+      gap: 5px;
     }
 
   }
