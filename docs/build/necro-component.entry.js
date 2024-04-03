@@ -156429,7 +156429,7 @@ const datas = [
 	}
 ];
 
-const necroComponentCss = ":host{display:block;background-color:black;color:white;font-family:system-ui}:host .title{font-size:25px;padding:0 0 15px;text-transform:capitalize}:host .affix-type{display:flex;flex-direction:column;gap:5px}:host .affixs{display:flex;gap:15px;justify-content:space-between}:host .affixs .affix{gap:5px;padding:0 5px;flex-direction:column;border-left:4px solid transparent}:host .affixs .affix .main{display:flex;align-items:center;justify-content:space-between;gap:5px;padding:0 5px}:host .affixs .affix:hover{border-left:4px solid white}:host .affixs .affix:hover .more-info{opacity:1}:host .affixs .affix .more-info{opacity:0}:host .affixs .affix .info{gap:5px;display:flex;align-items:center;margin-right:25px}:host .affixs .affix .mini-info{display:flex}:host .affixs .affix .modified{color:green;display:flex}:host .affixs .affix .tags{gap:5px;display:flex}:host .affixs .affix .tags .tag{border:1px solid #ccc;padding:3px}:host .affixs .affix .tiers{display:none}:host .affixs .affix .tiers.display{display:flex;gap:5px;padding-left:15px;flex-direction:column}:host .affixs .affix .tiers .tier{display:flex;align-items:center;justify-content:space-between;gap:5px;padding:0 5px}:host .affixs .affix .tiers .tier .infos{display:flex;gap:5px}:host .affixs .affix .tiers .tier.removed{text-decoration:line-through}:host .tag{cursor:pointer}:host .tag-Elemental{background:linear-gradient(0.25turn, red, blue, yellow);-webkit-background-clip:text;-webkit-text-fill-color:transparent}:host .tag-Fire{color:red}:host .tag-Cold{color:blue}:host .tag-Lightning{color:yellow}:host .tag-Attack{color:rgba(255, 123, 0, 0.514)}:host .tag-Mana{color:rgb(0, 255, 221)}:host .tag-Physical{color:rgb(110, 110, 110)}:host .tag-Chaos{color:rgb(161, 0, 148)}:host .cim{margin-bottom:15px}:host .cim .allCorpse{margin-top:15px;display:flex;gap:5px;flex-direction:column}:host .cim .allCorpse .corpse{display:flex;gap:15px;align-items:center}:host .cim .allCorpse .corpse .tag{border:1px solid white;padding:5px}:host .cim .allCorpse .corpse .remove{background-color:RED;padding:0 5px;cursor:pointer}:host .cim .selector{display:flex}";
+const necroComponentCss = ":host{display:block;background-color:black;color:white;font-family:system-ui}:host .header{display:flex;gap:15px;margin-bottom:20px}:host .title{font-size:25px;padding:0 0 15px;text-transform:capitalize;display:flex;gap:15px}:host .affix-type{display:flex;flex-direction:column;gap:5px}:host .affix-type .all-affix{display:flex;flex-direction:column;gap:5px}:host .affixs{display:flex;gap:15px;justify-content:space-between}:host .affixs .affix{gap:5px;padding:0 5px;flex-direction:column;border:1px solid;user-select:none;cursor:pointer}:host .affixs .affix:nth-child(even){background-color:#121212}:host .affixs .affix .main{display:flex;align-items:center;justify-content:space-between;gap:5px;padding:5px}:host .affixs .affix .main .info{gap:5px;display:flex;align-items:center;margin-right:25px}:host .affixs .affix .main .info .name{display:flex;gap:5px}:host .affixs .affix .main .mini-info{display:flex;position:relative;gap:5px}:host .affixs .affix .main .mini-info .fav{all:unset;border:1px solid;width:18px;margin-left:10px}:host .affixs .affix .main .mini-info .fav:hover{background-color:grey}:host .affixs .affix .main .mini-info .fav.active{background-color:white}:host .affixs .affix:hover{border-left:4px solid white;padding-left:2px}:host .affixs .affix:hover .more-info{opacity:1}:host .affixs .affix .more-info{opacity:0}:host .affixs .affix .modified{display:flex}:host .affixs .affix .modified.less{color:#970707}:host .affixs .affix .modified.more{color:rgb(19, 92, 19)}:host .affixs .affix .tags{gap:5px;display:flex}:host .affixs .affix .tags .tag{border:1px solid #ccc;padding:3px;font-size:10px}:host .affixs .affix .tiers{display:none}:host .affixs .affix .tiers.display{display:flex;gap:5px;padding-left:15px;flex-direction:column;margin-bottom:10px}:host .affixs .affix .tiers .tier{display:flex;align-items:center;justify-content:space-between;gap:5px;padding:0 5px}:host .affixs .affix .tiers .tier .infos{display:flex;gap:5px}:host .affixs .affix .tiers .tier.removed{text-decoration:line-through}:host .tag{cursor:pointer}:host .tag-Elemental{background:linear-gradient(0.25turn, rgb(177, 12, 12), rgb(94, 4, 94))}:host .tag-Fire{color:white;background-color:rgb(122, 20, 20)}:host .tag-Cold{color:white;background-color:rgb(22, 22, 138)}:host .tag-Lightning{color:yellow}:host .tag-Attack{color:rgba(255, 123, 0, 0.514)}:host .tag-Mana{color:rgb(0, 255, 221)}:host .tag-Physical{color:rgb(110, 110, 110)}:host .tag-Chaos{color:rgb(161, 0, 148)}:host .cim{padding-bottom:15px;position:sticky;margin-bottom:15px;top:0;background:black;z-index:1}:host .cim .allCorpse{margin-top:15px;display:flex;gap:5px;flex-direction:column;flex-wrap:wrap;max-height:20vh}:host .cim .allCorpse .corpse{display:flex;gap:15px;align-items:center}:host .cim .allCorpse .corpse .actions{display:flex;gap:5px}:host .cim .allCorpse .corpse .actions .remove{background-color:#970707;padding:0px 5px 1px;border-radius:3px;cursor:pointer}:host .cim .allCorpse .corpse .actions .display{background-color:#4b4b4b;padding:0px 5px 1px;border-radius:3px;cursor:pointer}:host .cim .allCorpse .corpse.active .actions .display{background-color:#1c4e08}:host .cim .allCorpse .corpse .content{display:flex;align-items:center;gap:15px;opacity:0.5}:host .cim .allCorpse .corpse.active .content{opacity:1}:host .cim .allCorpse .corpse .tag{border:1px solid #ccc;padding:3px;font-size:12px}:host .cim .rating-management{display:flex;align-items:center;height:30px;gap:10px}:host .cim .selector{display:flex;gap:5px}";
 
 const NecroComponent = class {
     constructor(hostRef) {
@@ -156438,7 +156438,9 @@ const NecroComponent = class {
         this.selectedTypeBuff = undefined;
         this.corpseList = [];
         this.displayTiers = [];
+        this.listSelectedAffix = [];
         this.dataAffix = undefined;
+        this.globalRating = undefined;
     }
     componentDidLoad() {
         this.getAllAffixType();
@@ -156458,14 +156460,15 @@ const NecroComponent = class {
         }
         return Math.ceil(totalTier / (1 + (rating / 100))) < currentTier;
     }
-    getRating(tags) {
-        const allRating = this.corpseList.filter(({ type, buff }) => buff === 'rating' && tags.includes(type));
-        return allRating.reduce((acc, { value }) => {
-            return acc + value;
-        }, 0);
+    getRating() {
+        return this.globalRating;
+        // const allRating = this.corpseList.filter(({ type, buff }) => buff === 'rating' && tags.includes(type));
+        // return allRating.reduce((acc, { value }) => {
+        //   return acc + value;
+        // }, 0)
     }
-    getScore(tags) {
-        const allRating = this.corpseList.filter(({ type, buff }) => buff !== 'rating' && tags.includes(type));
+    getScore(tags, corpse = this.corpseList, simulate = false) {
+        const allRating = corpse.filter(({ type, buff, active }) => (simulate ? true : active) && buff !== 'rating' && tags.includes(type));
         return allRating.reduce((acc, { value, buff }) => {
             switch (buff) {
                 case 'more':
@@ -156475,12 +156478,12 @@ const NecroComponent = class {
             }
         }, 0);
     }
-    calcWeigth(data) {
+    calcWeigth(data, corpse = this.corpseList, simulate = false) {
         return data.map(info => {
             let weigth = Number(info.weigth);
             let removedTier = 0;
             if (info.tiers) {
-                let rating = this.getRating(info.tags);
+                let rating = this.getRating();
                 const globalweigth = info.tiers.reduce((acc, { weigth, tier }) => {
                     if (this.isTierRemoved(Number(info.ntiers), Number(tier), rating)) {
                         removedTier++;
@@ -156490,14 +156493,18 @@ const NecroComponent = class {
                 }, 0);
                 weigth = globalweigth;
             }
-            return Object.assign(Object.assign({}, info), { score: this.getScore(info.tags), removedTier, weigth: Math.floor(weigth) });
+            return Object.assign(Object.assign({}, info), { score: this.getScore(info.tags, corpse, simulate), removedTier, weigth: Math.floor(weigth) });
         });
     }
     manageWeight() {
         return 10;
     }
-    renderTierAffix(tiers, ntiers, tags) {
-        return tiers.map((tier) => h("div", { class: `tier ${this.isTierRemoved(ntiers, Number(tier.tier), this.getRating(tags)) ? 'removed' : ''}` }, h("div", null, tier.name), h("div", { class: "infos" }, h("div", { class: "affix-tier" }, "(", tier.tier, ")"), h("div", null, tier.weigth))));
+    renderTierAffix(tiers, ntiers, score, totalWeight) {
+        return tiers.map((tier) => {
+            const weight = this.calcScore(score, Number(tier.weigth));
+            const percent = Math.floor((weight / totalWeight) * 1000) / 10;
+            return (h("div", { class: `tier ${this.isTierRemoved(ntiers, Number(tier.tier), this.getRating()) ? 'removed' : ''}` }, h("div", null, tier.name), h("div", { class: "infos" }, h("div", { class: "affix-tier" }, "(", tier.tier, ")"), h("div", null, weight, "  ", percent, "%"))));
+        });
     }
     calcScore(score, weight) {
         if (!score) {
@@ -156509,6 +156516,7 @@ const NecroComponent = class {
         else if (score < 0) {
             return Math.floor(weight / (1 + (-score / 100)));
         }
+        return weight;
     }
     toggle(idAffix) {
         if (this.displayTiers.includes(idAffix)) {
@@ -156516,6 +156524,19 @@ const NecroComponent = class {
             return;
         }
         this.displayTiers = [...this.displayTiers, idAffix];
+    }
+    getTotalWeight(typeSearch, corpse = this.corpseList, simulate = false) {
+        let index = 0;
+        while (this.dataAffix[index][0].type !== typeSearch) {
+            index++;
+        }
+        const datas = this.dataAffix[index];
+        const sortedData = this.calcWeigth(datas, corpse, simulate).sort((a, b) => {
+            return this.calcScore(b.score, Number(b.weigth)) - this.calcScore(a.score, Number(a.weigth));
+        });
+        return sortedData.reduce((acc, info) => {
+            return acc + this.calcScore(info.score, Number(info.weigth));
+        }, 0);
     }
     renderAffix() {
         if (!this.dataAffix) {
@@ -156526,54 +156547,231 @@ const NecroComponent = class {
             const sortedData = this.calcWeigth(data).sort((a, b) => {
                 return this.calcScore(b.score, Number(b.weigth)) - this.calcScore(a.score, Number(a.weigth));
             });
-            return h("div", { class: "affix-type" }, h("div", { class: "title" }, (_a = data[0]) === null || _a === void 0 ? void 0 : _a.type), sortedData.map(({ id, name, tags, weigth, tiers, ntiers, score, removedTier }) => {
+            const totalWeight = sortedData.reduce((acc, info) => {
+                return acc + this.calcScore(info.score, Number(info.weigth));
+            }, 0);
+            return h("div", { class: "affix-type" }, h("div", { class: "title" }, (_a = data[0]) === null || _a === void 0 ? void 0 :
+                _a.type, " - ", totalWeight), h("div", { class: "all-affix" }, sortedData.map((affix) => {
+                let { id, name, tags, weigth, tiers, ntiers, score, removedTier } = affix;
                 let infoWeight = this.calcScore(score, Number(weigth));
+                const percent = Math.floor((infoWeight / totalWeight) * 1000) / 10;
                 if (score) {
-                    infoWeight = h("div", { class: "modified" }, h("div", { class: "more-info" }, "(", score, ",", weigth, ")"), infoWeight);
+                    infoWeight = h("div", { class: `modified ${infoWeight < Number(weigth) ? 'less' : 'more'}` }, h("div", { class: "more-info" }, "(", score, ",", weigth, ")"), " ", infoWeight, " ", percent, "%");
                 }
                 else {
-                    infoWeight = h("div", null, infoWeight);
+                    infoWeight = h("div", null, infoWeight, " ", percent, "%");
                 }
-                let removedTierInfo;
-                if (removedTier > 0) {
-                    removedTierInfo = h("div", { class: "removed-tier", title: "number of tier removed" }, "(", removedTier, ")");
+                if (tiers.length) {
+                    name = tiers[0].name;
                 }
-                return (h("div", { class: "affix", onClick: () => this.toggle(id) }, h("div", { class: "main" }, h("div", { class: "info" }, h("div", null, name), h("div", { class: "tags" }, tags === null || tags === void 0 ? void 0 : tags.map(tag => {
+                let tierInfo;
+                if (removedTier > 0 && tiers[removedTier]) {
+                    tierInfo = h("div", { class: "removed-tier" }, "(T", Number(ntiers) - removedTier, ")");
+                    name = tiers[removedTier].name;
+                }
+                return (h("div", { class: "affix", onClick: () => this.toggle(id) }, h("div", { class: "main" }, h("div", { class: "info" }, h("div", { class: "name" }, h("div", null, tierInfo), name), h("div", { class: "tags" }, tags === null || tags === void 0 ? void 0 : tags.map(tag => {
                     return h("div", { class: `tag tag-${tag}` }, tag);
-                }))), h("div", { class: "mini-info" }, removedTierInfo, infoWeight)), h("div", { class: `tiers ${this.displayTiers.includes(id) ? 'display' : ''}` }, this.renderTierAffix(tiers, Number(ntiers), tags))));
-            }));
+                }))), h("div", { class: "mini-info" }, h("div", null, infoWeight), h("button", { class: `fav ${this.listSelectedAffix.find(({ id }) => id === affix.id) ? 'active' : ''}`, onClick: (ev) => {
+                        ev.stopPropagation();
+                        this.toggleSelectAffix(affix);
+                    } }))), h("div", { class: `tiers ${this.displayTiers.includes(id) ? 'display' : ''}` }, this.renderTierAffix(tiers, Number(ntiers), score, totalWeight))));
+            })));
         });
     }
+    toggleSelectAffix(affix) {
+        if (this.listSelectedAffix.find(({ id }) => id === affix.id)) {
+            this.listSelectedAffix = this.listSelectedAffix.filter(({ id }) => id !== affix.id);
+        }
+        else {
+            this.listSelectedAffix = [...this.listSelectedAffix, affix];
+        }
+    }
+    simulateAffix(corpses = this.corpseList) {
+        const allAffixSorted = this.dataAffix.map((data) => {
+            const sortedData = this.calcWeigth(data, corpses, true).sort((a, b) => {
+                return this.calcScore(b.score, Number(b.weigth)) - this.calcScore(a.score, Number(a.weigth));
+            });
+            return {
+                type: data[0].type,
+                data: sortedData
+            };
+        });
+        return this.listSelectedAffix.map(affixSelect => {
+            const dataFromType = allAffixSorted.find(({ type }) => type === affixSelect.type).data;
+            // we get position of target
+            const position = dataFromType.findIndex((({ id }) => id === affixSelect.id));
+            let infoWeight = this.calcScore(affixSelect.score, Number(affixSelect.weigth));
+            const totalWeight = this.getTotalWeight(affixSelect.type, corpses, true);
+            console.log('totalWeight', totalWeight, '/', infoWeight, affixSelect.name);
+            const percent = Math.floor((infoWeight / totalWeight) * 1000) / 10;
+            return {
+                affix: affixSelect,
+                position,
+                percent
+            };
+        });
+    }
+    calcAllAffixOptimisation(corpse = this.corpseList) {
+        const allAffixSorted = this.dataAffix.map((data) => {
+            const sortedData = this.calcWeigth(data, corpse).sort((a, b) => {
+                return this.calcScore(b.score, Number(b.weigth)) - this.calcScore(a.score, Number(a.weigth));
+            });
+            return {
+                type: data[0].type,
+                data: sortedData
+            };
+        });
+        const allSelectedAffixTags = this.listSelectedAffix.reduce((acc, selectedAffix) => {
+            const newTag = selectedAffix.tags.filter(tag => !acc.includes(tag));
+            return [...acc,
+                ...newTag];
+        }, []);
+        const idSelectedAffix = this.listSelectedAffix.map(({ id }) => id);
+        const allAffixData = this.listSelectedAffix.map(affixSelect => {
+            const dataFromType = allAffixSorted.find(({ type }) => type === affixSelect.type).data;
+            // we get position of target
+            const position = dataFromType.findIndex((({ id }) => id === affixSelect.id));
+            //we get all better target
+            let enemies = dataFromType.slice(0, position);
+            // we remove our selected from enemi
+            enemies = enemies.filter(({ id }) => !idSelectedAffix.includes(id));
+            //we get all tags from enemies
+            const enemiesTags = enemies.reduce((acc, enemi) => {
+                const newTag = enemi.tags.filter(tag => !acc.includes(tag));
+                return [...acc,
+                    ...newTag];
+            }, []);
+            const diffTagsDirect = enemiesTags.filter(enemiesTag => !affixSelect.tags.includes(enemiesTag));
+            const conflict = enemiesTags.filter(enemiesTag => affixSelect.tags.includes(enemiesTag));
+            const diffTagsWithoutInterferences = diffTagsDirect.filter(difTag => !allSelectedAffixTags.includes(difTag));
+            return {
+                more: affixSelect.tags.filter(enemiesTag => !conflict.includes(enemiesTag)),
+                conflict: conflict,
+                less: diffTagsWithoutInterferences
+            };
+        });
+        // console.log('MORE', this.getPowerTag(allAffixData.map(({ more }) => more).flat()).map(({ name, number }) => `${name}(${number})`));
+        // console.log('conflict', this.getPowerTag(allAffixData.map(({ conflict }) => conflict).flat()).map(({ name, number }) => `${name}(${number})`));
+        // console.log('LESS', this.getPowerTag(allAffixData.map(({ less }) => less).flat()).map(({ name, number }) => `${name}(${number})`));
+        return {
+            more: this.getPowerTag(allAffixData.map(({ more }) => more).flat()),
+            conflict: this.getPowerTag(allAffixData.map(({ conflict }) => conflict).flat()),
+            less: this.getPowerTag(allAffixData.map(({ less }) => less).flat()),
+        };
+    }
+    makeOptimisation() {
+        const simulationAffix = this.simulateAffix();
+        const infoPast = {
+            nbCorpse: this.corpseList.length,
+            score: simulationAffix.reduce((acc, { position }) => acc + position, 0),
+            percent: simulationAffix.reduce((acc, { percent }) => acc + percent, 0)
+        };
+        const resultOpti = this.calcAllAffixOptimisation();
+        let newCorpse = [];
+        if (resultOpti.less.length) {
+            newCorpse = [
+                ...newCorpse,
+                resultOpti.less.map(affixToReduce => {
+                    return {
+                        id: "id" + Math.random().toString(16).slice(2),
+                        type: affixToReduce.name,
+                        buff: 'less',
+                        value: 300,
+                        active: false
+                    };
+                })
+            ];
+        }
+        // if (resultOpti.more.length) {
+        //   newCorpse = [
+        //     ...newCorpse,
+        //     resultOpti.more.map(affixToReduce => {
+        //       return {
+        //         id: "id" + Math.random().toString(16).slice(2),
+        //         type: affixToReduce.name,
+        //         buff: 'more',
+        //         value: 500,
+        //         active: false
+        //       }
+        //     })
+        //   ]
+        // }
+        const newCorpseList = [
+            ...this.corpseList,
+            ...newCorpse.flat()
+        ];
+        console.log(newCorpseList);
+        const simulationAffixPresent = this.simulateAffix(newCorpseList);
+        console.log(simulationAffixPresent);
+        const infoPresent = {
+            nbCorpse: newCorpseList.length,
+            score: simulationAffixPresent.reduce((acc, { position }) => acc + position, 0),
+            percent: simulationAffixPresent.reduce((acc, { percent }) => acc + percent, 0)
+        };
+        if (infoPresent.percent > infoPast.percent) {
+            console.log('improvement', infoPresent);
+            this.corpseList = newCorpseList;
+        }
+        else {
+            console.log('rollback', infoPresent, infoPast);
+            // this.corpseList.splice(infoPast.nbCorpse, this.corpseList.length - infoPast.nbCorpse);
+        }
+    }
+    getPowerTag(tagArray) {
+        return tagArray.reduce((acc, item) => {
+            const itemExist = acc.find(({ name }) => name === item);
+            if (itemExist) {
+                itemExist.number += 1;
+            }
+            else {
+                acc.push({
+                    name: item,
+                    number: 1
+                });
+            }
+            return acc;
+        }, []).sort((a, b) => b.number - a.number);
+    }
     renderCim() {
-        var _a;
         const options = [
             {
                 buff: "more",
                 text: "Increased chance",
-                values: [100, 300, 500]
+                increment: 500
             },
             {
                 buff: "less",
                 text: "Scarcer",
-                values: [100, 300]
-            },
-            {
-                buff: "rating",
-                text: "Tier Rating",
-                values: [25, 50, 100]
+                increment: 300
             }
+            // {
+            //   buff: "rating",
+            //   text: "Tier Rating",
+            //   increment: 50
+            // }
         ];
-        return h("div", { class: "cim" }, h("div", { class: "title" }, "CIMETERY"), h("div", { class: "selector" }, h("select", { onChange: (ev) => this.selectedType = ev.currentTarget.value }, h("option", null), this.allAffixTypes.map(type => {
+        return h("div", { class: "cim" }, h("div", { class: "selector" }, h("div", null, "Add Corpse"), h("select", { onChange: (ev) => this.selectedType = ev.currentTarget.value }, h("option", null), this.allAffixTypes.sort().map(type => {
             return h("option", { value: type }, type);
         })), h("select", { onChange: (ev) => {
                 this.selectedTypeBuff = ev.currentTarget.value;
-                this.selectedTypeValue = options.find(({ buff: optionBuff }) => optionBuff === this.selectedTypeBuff).values[0];
-            } }, h("option", null), options.map(({ buff, text }) => h("option", { value: buff }, text))), h("select", { onChange: (ev) => this.selectedTypeValue = Number(ev.currentTarget.value) }, (_a = options.find(({ buff }) => buff === this.selectedTypeBuff)) === null || _a === void 0 ? void 0 : _a.values.map((val) => h("option", { value: val, selected: this.selectedTypeValue === val }, val))), h("button", { onClick: (() => this.createCorps()) }, "Validate")), h("div", { class: "display" }, h("div", { class: "allCorpse" }, this.corpseList.map(({ id, type, buff, value }) => {
-            return h("div", { class: "corpse" }, h("div", { class: "remove", onClick: () => this.removeCorpse(id) }, "X"), h("div", null, options.find(({ buff: optionBuff }) => optionBuff === buff).text), h("div", { class: `tag tag-${type}` }, type), " ", h("div", null, value));
+            } }, h("option", null), options.map(({ buff, text }) => h("option", { value: buff }, text))), h("button", { onClick: (() => {
+                this.selectedTypeValue = options.find(({ buff: optionBuff }) => optionBuff === this.selectedTypeBuff).increment;
+                this.createCorps();
+            }) }, "Validate"), h("button", { onClick: () => this.makeOptimisation(), title: "select affix (right box on affix line) to generate affix to remove" }, "OPTIMISE"), h("button", { onClick: () => this.corpseList = [], title: "Clean all corpse" }, "Clean")), h("div", { class: "rating-management" }, h("div", null, "Global rating"), h("input", { type: "range", min: "0", step: "50", max: 50 * 30, value: this.globalRating, onInput: (ev) => this.globalRating = Number(ev.currentTarget.value) }), this.globalRating), h("div", { class: "display" }, h("div", { class: "allCorpse" }, this.corpseList.map(({ id, type, buff, value, active }) => {
+            const corpseType = options.find((option) => option.buff === buff);
+            return h("div", { class: `corpse ${active ? 'active' : ''}` }, h("div", { class: "actions" }, h("div", { class: "remove", title: "remove corpse", onClick: () => this.removeCorpse(id) }, "X"), h("div", { class: "display", title: "active or deactive corpse", onClick: () => this.setCorpseValue(id, 'active', !active) }, "O")), h("div", { class: "content" }, h("div", null, options.find(({ buff: optionBuff }) => optionBuff === buff).text), h("div", { class: `tag tag-${type}` }, type), h("div", null, h("input", { type: "range", min: "0", step: corpseType.increment, max: corpseType.increment * 10, value: value, onInput: (ev) => this.setCorpseValue(id, 'value', ev.currentTarget.value) }), value)));
         })), h("div", { class: "allCorpseRecap" })));
     }
     removeCorpse(corpseId) {
         this.corpseList = this.corpseList.filter(({ id }) => id !== corpseId);
+    }
+    setCorpseValue(corpseId, target, value) {
+        this.corpseList = this.corpseList.map((corpse) => {
+            if (corpse.id === corpseId) {
+                corpse[target] = value;
+            }
+            return corpse;
+        });
     }
     createCorps() {
         this.corpseList = [...this.corpseList,
@@ -156581,15 +156779,16 @@ const NecroComponent = class {
                 id: "id" + Math.random().toString(16).slice(2),
                 type: this.selectedType,
                 buff: this.selectedTypeBuff,
-                value: this.selectedTypeValue
+                value: this.selectedTypeValue,
+                active: true
             }
         ];
     }
     renderSelectBase() {
-        return h("div", null, h("input", { list: "itemBase", onInput: (ev) => this.selectDatas((ev.currentTarget.value)) }), h("datalist", { id: "itemBase" }, datas.map(({ type }) => h("option", { value: type }))));
+        return h("div", { class: "header" }, h("div", null, "Select Base type :"), h("input", { list: "itemBase", onInput: (ev) => this.selectDatas((ev.currentTarget.value)) }), h("datalist", { id: "itemBase" }, datas.map(({ type }) => h("option", { value: type }))));
     }
     render() {
-        return (h(Host, { key: '451e1dd5bbb639d1b62f68f4bc35387f17384fdb' }, this.renderSelectBase(), this.renderCim(), h("div", { key: '9147c21a57024032c18817f36f3f70ba5c8349a5', class: "affixs" }, this.renderAffix())));
+        return (h(Host, { key: '92147fe51a7483590ce16a691ce67bd4a76b715c' }, this.renderSelectBase(), this.renderCim(), h("div", { key: '3127dccdf380ae43294f438bdf543ea9c3191a5a', class: "affixs" }, this.renderAffix())));
     }
 };
 NecroComponent.style = necroComponentCss;

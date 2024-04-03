@@ -47,7 +47,7 @@ const patchCloneNodeFix = (HTMLElementPrototype) => {
 
 patchBrowser().then(async (options) => {
   await globalScripts();
-  return bootstrapLazy([["necro-component",[[1,"necro-component",{"selectedTypeBuff":[32],"corpseList":[32],"displayTiers":[32],"dataAffix":[32]}]]]], options);
+  return bootstrapLazy([["necro-component",[[1,"necro-component",{"selectedTypeBuff":[32],"corpseList":[32],"displayTiers":[32],"listSelectedAffix":[32],"dataAffix":[32],"globalRating":[32]}]]]], options);
 });
 
 //# sourceMappingURL=necro.esm.js.map
