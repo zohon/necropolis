@@ -1,4 +1,4 @@
-import { Component, Host, State, Watch, h } from '@stencil/core';
+import { Component, Host, Listen, State, h } from '@stencil/core';
 import datas from './data/allInfos.json';
 
 
@@ -40,7 +40,25 @@ interface Affix {
 })
 export class NecroComponent {
 
-  allAffixTypes: string[] = [];
+  allAffixTypes: string[] = [
+    "Physical",
+    "Fire",
+    "Cold",
+    "Lightning",
+    "Chaos",
+    "Life",
+    "Mana",
+    "Attack",
+    "Caster",
+    "Elemental",
+    "Defence",
+    "Critical",
+    "Speed",
+    "Attribute",
+    "Resistance",
+    "Gem",
+    "Minion"
+  ];
 
   @State() selectedTypeBuff: 'more' | 'less' | 'rating';
   selectedType: string;
@@ -54,17 +72,17 @@ export class NecroComponent {
   @State() globalRating: number;
 
   componentDidLoad() {
-    this.getAllAffixType();
+    // this.getAllAffixType();
   }
 
   selectDatas(searchType: string) {
     console.log('selectDatas', datas, searchType)
     this.dataAffix = datas.find(({ type }) => type === searchType).datas;
-    this.getAllAffixType();
+    // this.getAllAffixType();
   }
 
   getAllAffixType() {
-    this.allAffixTypes = [...new Set(this.dataAffix?.flat().map(({ tags }) => tags).flat())];
+    // this.allAffixTypes = [...new Set(this.dataAffix?.flat().map(({ tags }) => tags).flat())];
   }
 
   isTierRemoved(totalTier: number, currentTier: number, rating: number): boolean {
@@ -336,9 +354,10 @@ export class NecroComponent {
         ...newTag]
       }, [])
 
-      const diffTagsDirect = enemiesTags.filter(enemiesTag => !affixSelect.tags.includes(enemiesTag));
-      const conflict = enemiesTags.filter(enemiesTag => affixSelect.tags.includes(enemiesTag));
-      const diffTagsWithoutInterferences = diffTagsDirect.filter(difTag => !allSelectedAffixTags.includes(difTag));
+      const diffTagsDirect = enemiesTags.filter(enemiesTag => !affixSelect.tags.includes(enemiesTag) && this.allAffixTypes.includes(enemiesTag));
+      const conflict = enemiesTags.filter(enemiesTag => affixSelect.tags.includes(enemiesTag) && this.allAffixTypes.includes(enemiesTag));
+      const diffTagsWithoutInterferences = diffTagsDirect.filter(difTag => !allSelectedAffixTags.includes(difTag) && this.allAffixTypes.includes(difTag));
+
       return {
         more: affixSelect.tags.filter(enemiesTag => !conflict.includes(enemiesTag)),
         conflict: conflict,
@@ -350,12 +369,16 @@ export class NecroComponent {
     // console.log('conflict', this.getPowerTag(allAffixData.map(({ conflict }) => conflict).flat()).map(({ name, number }) => `${name}(${number})`));
     // console.log('LESS', this.getPowerTag(allAffixData.map(({ less }) => less).flat()).map(({ name, number }) => `${name}(${number})`));
 
+    const conflict = allAffixData.map(({ conflict }) => conflict).flat();
+    const more = allAffixData.map(({ more }) => more).flat();
+
     return {
-      more: this.getPowerTag(allAffixData.map(({ more }) => more).flat()),
-      conflict: this.getPowerTag(allAffixData.map(({ conflict }) => conflict).flat()),
+      more: this.getPowerTag(more),
+      conflict: this.getPowerTag(conflict),
       less: this.getPowerTag(allAffixData.map(({ less }) => less).flat()),
     }
   }
+
 
   makeOptimisation() {
 
@@ -371,40 +394,57 @@ export class NecroComponent {
 
     let newCorpse = [];
     if (resultOpti.less.length) {
+      const addLessCorpse = resultOpti.less.filter(({ name }) => {
+        return !this.corpseList.find(({ type, buff }) => buff === 'less' && type === name)
+      }).map(affixToReduce => {
+        return {
+          id: "id" + Math.random().toString(16).slice(2),
+          type: affixToReduce.name,
+          buff: 'less',
+          value: 300,
+          active: true
+        }
+      })
+
+      // this.corpseList.filter(({ type, buff }) => buff === 'less' && resultOpti.less.map(({ name }) => name).includes(type)).map(corpse => {
+      //   this.setCorpseValue(corpse.id, 'value', corpse.value + 300);
+      // })
+
       newCorpse = [
         ...newCorpse,
-        resultOpti.less.map(affixToReduce => {
-          return {
-            id: "id" + Math.random().toString(16).slice(2),
-            type: affixToReduce.name,
-            buff: 'less',
-            value: 300,
-            active: false
-          }
-        })
+        ...addLessCorpse
       ]
     }
-    // if (resultOpti.more.length) {
-    //   newCorpse = [
-    //     ...newCorpse,
-    //     resultOpti.more.map(affixToReduce => {
-    //       return {
-    //         id: "id" + Math.random().toString(16).slice(2),
-    //         type: affixToReduce.name,
-    //         buff: 'more',
-    //         value: 500,
-    //         active: false
-    //       }
-    //     })
-    //   ]
-    // }
+
+    if (resultOpti.more.length) {
+      const addMoreCorpse = resultOpti.more.filter(({ name }) => {
+        return !this.corpseList.find(({ type, buff }) => buff === 'more' && type === name)
+      }).map(affixToReduce => {
+        return {
+          id: "id" + Math.random().toString(16).slice(2),
+          type: affixToReduce.name,
+          buff: 'more',
+          value: 500,
+          active: true
+        }
+      });
+
+      // this.corpseList.filter(({ type, buff }) => buff === 'less' && resultOpti.less.map(({ name }) => name).includes(type)).map(corpse => {
+      //   this.setCorpseValue(corpse.id, 'value', corpse.value + 500);
+      // })
+
+      newCorpse = [
+        ...newCorpse,
+        ...addMoreCorpse
+      ];
+    }
 
     const newCorpseList = [
       ...this.corpseList,
       ...newCorpse.flat()
     ];
 
-    console.log(newCorpseList);
+    console.log('newCorpseList', resultOpti, newCorpseList);
     const simulationAffixPresent = this.simulateAffix(newCorpseList);
 
     console.log(simulationAffixPresent);
@@ -414,11 +454,17 @@ export class NecroComponent {
       percent: simulationAffixPresent.reduce((acc, { percent }) => acc + percent, 0)
     };
 
+
     if (infoPresent.percent > infoPast.percent) {
       console.log('improvement', infoPresent);
       this.corpseList = newCorpseList;
     } else {
       console.log('rollback', infoPresent, infoPast);
+
+      this.corpseList = [
+        ...this.corpseList,
+        ...newCorpse.flat().map((item) => ({ ...item, active: false }))
+      ];
       // this.corpseList.splice(infoPast.nbCorpse, this.corpseList.length - infoPast.nbCorpse);
     }
   }
@@ -464,32 +510,40 @@ export class NecroComponent {
 
     return <div class="cim">
       <div class="selector">
-        <div>Add Corpse</div>
-        <select onChange={(ev) => this.selectedType = (ev.currentTarget as HTMLSelectElement).value}>
-          <option></option>
-          {this.allAffixTypes.sort().map(type => {
-            return <option value={type}>{type}</option>
-          })}
-        </select>
+        <div class="left">
+          <div>Add Corpse</div>
+          <select onChange={(ev) => this.selectedType = (ev.currentTarget as HTMLSelectElement).value}>
+            <option></option>
+            {this.allAffixTypes.sort().map(type => {
+              return <option value={type}>{type}</option>
+            })}
+          </select>
 
-        <select onChange={(ev) => {
-          this.selectedTypeBuff = (ev.currentTarget as HTMLSelectElement).value as 'more' | 'less' | 'rating';
-        }}>
-          <option></option>
-          {
-            options.map(({ buff, text }) => <option value={buff}>{text}</option>)
-          }
-        </select>
+          <select onChange={(ev) => {
+            this.selectedTypeBuff = (ev.currentTarget as HTMLSelectElement).value as 'more' | 'less' | 'rating';
+          }}>
+            <option></option>
+            {
+              options.map(({ buff, text }) => <option value={buff}>{text}</option>)
+            }
+          </select>
 
-        <button onClick={(() => {
-          this.selectedTypeValue = options.find(({ buff: optionBuff }) => optionBuff === this.selectedTypeBuff).increment;
-          this.createCorps()
-        })}>Validate</button>
+          <button onClick={(() => {
+            this.selectedTypeValue = options.find(({ buff: optionBuff }) => optionBuff === this.selectedTypeBuff).increment;
+            this.createCorps()
+          })}>Validate</button>
 
+        </div>
+        <div>
+          <button onClick={() => this.makeOptimisation()} title="select affix (right box on affix line) to generate affix to remove">OPTIMISE</button>
+          <button onClick={() => {
+            if (window.confirm("Do you really want to remove all corpse ?")) {
+              this.corpseList = []
+            }
+          }} title="Clean all corpse">Clean</button>
 
-        <button onClick={() => this.makeOptimisation()} title="select affix (right box on affix line) to generate affix to remove">OPTIMISE</button>
-        <button onClick={() => this.corpseList = []} title="Clean all corpse">Clean</button>
-
+          <button onClick={() => this.saveCorps()} title="Copy all corpse">Copy corpse</button>
+        </div>
       </div>
 
       <div class="rating-management">
@@ -508,7 +562,11 @@ export class NecroComponent {
 
             return <div class={`corpse ${active ? 'active' : ''}`}>
               <div class="actions">
-                <div class="remove" title="remove corpse" onClick={() => this.removeCorpse(id)}>X</div>
+                <div class="remove" title="remove corpse" onClick={() => {
+                  if (window.confirm("Do you really want to delete this corpse ?")) {
+                    this.removeCorpse(id)
+                  }
+                }}>X</div>
                 <div class="display" title="active or deactive corpse" onClick={() => this.setCorpseValue(id, 'active', !active)}>O</div>
               </div>
               <div class="content">
@@ -517,7 +575,7 @@ export class NecroComponent {
                 <div>
                   <input type="range" min="0" step={corpseType.increment} max={corpseType.increment * 10}
                     value={value}
-                    onInput={(ev) => this.setCorpseValue(id, 'value', (ev.currentTarget as HTMLInputElement).value)}></input>
+                    onInput={(ev) => this.setCorpseValue(id, 'value', Number((ev.currentTarget as HTMLInputElement).value))}></input>
                   {value}
                 </div>
               </div>
@@ -528,6 +586,36 @@ export class NecroComponent {
         </div>
       </div>
     </div >
+  }
+
+  @Listen('paste')
+  pasteHandler(event: any) {
+    event.preventDefault();
+    let paste = (event.clipboardData).getData("text")
+    this.loadCorps(paste);
+  }
+
+  saveCorps() {
+
+    const infoCorpse = {
+      globalRating: this.globalRating,
+      corpseList: this.corpseList
+    }
+
+    navigator.clipboard.writeText(JSON.stringify(infoCorpse));
+    alert('corpse saved to clipboard (paste them on the application direclty)')
+  }
+
+  loadCorps(corpseString: string) {
+    if (corpseString) {
+      try {
+        const datas = JSON.parse(corpseString);
+        this.globalRating = datas.globalRating;
+        this.corpseList = datas.corpseList;
+      } catch (error) {
+
+      }
+    }
   }
 
   removeCorpse(corpseId: string) {
