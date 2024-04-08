@@ -51,7 +51,7 @@ export class NecroComponent {
     "Attack",
     "Caster",
     "Elemental",
-    "Defence",
+    "Defences",
     "Critical",
     "Speed",
     "Attribute",
@@ -76,8 +76,19 @@ export class NecroComponent {
   }
 
   selectDatas(searchType: string) {
-    console.log('selectDatas', datas, searchType)
-    this.dataAffix = datas.find(({ type }) => type === searchType).datas;
+
+    const dataofType = datas.find(({ type }) => type === searchType).datas;
+
+    this.dataAffix =
+      dataofType.map((dataParent) => {
+        return dataParent.map((data) => {
+          return {
+            ...data,
+            tags: data.tags.filter(tag => this.allAffixTypes.includes(tag))
+          }
+        })
+      });
+    console.log('selectDatas', datas, searchType, this.dataAffix);
     // this.getAllAffixType();
   }
 
@@ -535,7 +546,9 @@ export class NecroComponent {
 
         </div>
         <div>
+          <button onClick={() => this.copyText()} title="select affix (right box on affix line) to generate affix to remove">COPY</button>
           <button onClick={() => this.makeOptimisation()} title="select affix (right box on affix line) to generate affix to remove">OPTIMISE</button>
+
           <button onClick={() => {
             if (window.confirm("Do you really want to remove all corpse ?")) {
               this.corpseList = []
@@ -576,7 +589,7 @@ export class NecroComponent {
                   <input type="range" min="0" step={corpseType.increment} max={corpseType.increment * 10}
                     value={value}
                     onInput={(ev) => this.setCorpseValue(id, 'value', Number((ev.currentTarget as HTMLInputElement).value))}></input>
-                  {value}
+                  <input value={value} onInput={(ev) => this.setCorpseValue(id, 'value', Number((ev.currentTarget as HTMLInputElement).value))}></input>
                 </div>
               </div>
             </div>
@@ -604,6 +617,11 @@ export class NecroComponent {
 
     navigator.clipboard.writeText(JSON.stringify(infoCorpse));
     alert('corpse saved to clipboard (paste them on the application direclty)')
+  }
+
+
+  copyText() {
+    console.log(this.corpseList.sort(((a, b) => b.value - a.value)).map(({ buff, type, value }) => `${type} MODIFIER ARE ${value}% ${buff}`))
   }
 
   loadCorps(corpseString: string) {
